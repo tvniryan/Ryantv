@@ -5,6 +5,9 @@ M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
 
+#EXTINF:-1 tvg-id="RYANTV" tvg-name="SONY PIX HD" tvg-logo="https://i.imghippo.com/files/cvoo8807zNw.jpg" group-title="RYANTV CHANNELS",SONY PIX HD
+http://supersonictv.live:8080/611366/682256/22879
+
 
 #EXTINF:-1 tvg-id="US: 5 STARMAX" tvg-name="CINEMAX 5 STARMAX UHD" group-title="MOVIE CHANNELS📺",CINEMAX 5 STARMAX UHD
 http://supersonictv.live:8080/611366/682256/22878
