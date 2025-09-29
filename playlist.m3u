@@ -8,11 +8,9 @@ M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 
 #EXTINF:-1 tvg-id="US: 5 STARMAX" tvg-name="CINEMAX 5 STARMAX UHD" group-title="MOVIE CHANNELS📺",CINEMAX 5 STARMAX UHD
 http://supersonictv.live:8080/611366/682256/22878
-#EXTINF:-1 tvg-id="US: CINEMAX EAST" tvg-name="Cinemax East UHD" group-title="MOVIE CHANNELS📺",Cinemax UHD 2
+#EXTINF:-1 tvg-id="US: CINEMAX WEST" tvg-name="Cinemax West UHD" group-title="MOVIE CHANNELS📺",Cinemax UHD1
 http://supersonictv.live:8080/611366/682256/22879
-#EXTINF:-1 tvg-id="US: CINEMAX WEST" tvg-name="Cinemax West UHD" group-title="MOVIE CHANNELS📺",Cinemax UHD 2
-http://supersonictv.live:8080/611366/682256/22879
-#EXTINF:-1 tvg-id="US: CINEMAX WEST" tvg-name="Cinemax West UHD" group-title="MOVIE CHANNELS📺",Cinemax UHD 2
+#EXTINF:-1 tvg-id="US: CINEMAX WEST" tvg-name="Cinemax West UHD" group-title="MOVIE CHANNELS📺",Cinemax UHD2
 http://supersonictv.live:8080/611366/682256/22880
 #EXTINF:-1 tvg-id="US: ACTIONMAX EAST" tvg-name="CINEMAX ACTIONMAX UHD" group-title="MOVIE CHANNELS📺",CINEMAX ACTIONMAX UHD
 http://supersonictv.live:8080/611366/682256/22881
