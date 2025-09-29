@@ -16,12 +16,6 @@ http://supersonictv.live:8080/611366/682256/22880
 http://supersonictv.live:8080/611366/682256/22881
 #EXTINF:-1 tvg-id="US: MOREMAX EAST" tvg-name="CINEMAX MORE MAX UHD" group-title="MOVIE CHANNELS📺",CINEMAX MORE MAX UHD
 http://supersonictv.live:8080/611366/682256/22882
-#EXTINF:-1 tvg-id="US: MOVIEMAX EAST" tvg-name="CINEMAX MOVIE MAX UHD" group-title="MOVIE CHANNELS📺",CINEMAX MOVIE MAX UHD
-http://supersonictv.live:8080/611366/682256/22883
-#EXTINF:-1 tvg-id="US: OUTERMAX EAST" tvg-name="CINEMAX OUTER MAX UHD" group-title="MOVIE CHANNELS📺",CINEMAX OUTER MAX UHD
-http://supersonictv.live:8080/611366/682256/22884
-#EXTINF:-1 tvg-id="US: THRILLERMAX EAST" tvg-name="CINEMAX THRILLER MAX UHD" group-title="MOVIE CHANNELS📺",CINEMAX THRILLER MAX UHD
-http://supersonictv.live:8080/611366/682256/22885
 #EXTINF:-1 tvg-id="US: FX EAST" tvg-name="USA FX East UHD" https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/fx-movie-channel.png" group-title="MOVIE CHANNELS📺",FX 1
 http://supersonictv.live:8080/611366/682256/22091
 #EXTINF:-1 tvg-id="US: FX WEST" tvg-name="USA FX West LHD" https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/fx-movie-channel.png" group-title="MOVIE CHANNELS📺",FX 2
