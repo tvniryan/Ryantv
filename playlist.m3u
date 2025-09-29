@@ -5,6 +5,64 @@ M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
 
+
+#EXTINF:-1 tvg-id="US: 5 STARMAX" tvg-name="CINEMAX 5 STARMAX UHD" group-title="MOVIE CHANNELS📺",CINEMAX 5 STARMAX UHD
+http://supersonictv.live:8080/611366/682256/22878
+#EXTINF:-1 tvg-id="US: CINEMAX EAST" tvg-name="Cinemax East UHD" group-title="MOVIE CHANNELS📺",Cinemax UHD 2
+http://supersonictv.live:8080/611366/682256/22879
+#EXTINF:-1 tvg-id="US: CINEMAX WEST" tvg-name="Cinemax West UHD" group-title="MOVIE CHANNELS📺",Cinemax UHD 2
+http://supersonictv.live:8080/611366/682256/22879
+#EXTINF:-1 tvg-id="US: CINEMAX WEST" tvg-name="Cinemax West UHD" group-title="MOVIE CHANNELS📺",Cinemax UHD 2
+http://supersonictv.live:8080/611366/682256/22880
+#EXTINF:-1 tvg-id="US: ACTIONMAX EAST" tvg-name="CINEMAX ACTIONMAX UHD" group-title="MOVIE CHANNELS📺",CINEMAX ACTIONMAX UHD
+http://supersonictv.live:8080/611366/682256/22881
+#EXTINF:-1 tvg-id="US: MOREMAX EAST" tvg-name="CINEMAX MORE MAX UHD" group-title="MOVIE CHANNELS📺",CINEMAX MORE MAX UHD
+http://supersonictv.live:8080/611366/682256/22882
+#EXTINF:-1 tvg-id="US: MOVIEMAX EAST" tvg-name="CINEMAX MOVIE MAX UHD" group-title="MOVIE CHANNELS📺",CINEMAX MOVIE MAX UHD
+http://supersonictv.live:8080/611366/682256/22883
+#EXTINF:-1 tvg-id="US: OUTERMAX EAST" tvg-name="CINEMAX OUTER MAX UHD" group-title="MOVIE CHANNELS📺",CINEMAX OUTER MAX UHD
+http://supersonictv.live:8080/611366/682256/22884
+#EXTINF:-1 tvg-id="US: THRILLERMAX EAST" tvg-name="CINEMAX THRILLER MAX UHD" group-title="MOVIE CHANNELS📺",CINEMAX THRILLER MAX UHD
+http://supersonictv.live:8080/611366/682256/22885
+#EXTINF:-1 tvg-id="US: FX EAST" tvg-name="USA FX East UHD" https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/fx-movie-channel.png" group-title="MOVIE CHANNELS📺",FX 1
+http://supersonictv.live:8080/611366/682256/22091
+#EXTINF:-1 tvg-id="US: FX WEST" tvg-name="USA FX West LHD" https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/fx-movie-channel.png" group-title="MOVIE CHANNELS📺",FX 2
+http://supersonictv.live:8080/611366/682256/22092
+#EXTINF:-1 tvg-id="US: FXM" tvg-name="USA FXM UHD" https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/fx-movie-channel.png" group-title="MOVIE CHANNELS📺",FXM UHD
+http://supersonictv.live:8080/611366/682256/22093
+#EXTINF:-1 tvg-id="US: FXX EAST" tvg-name="USA FXX East UHD" https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/fx-movie-channel.png" group-title="MOVIE CHANNELS📺",FXX UHD
+http://supersonictv.live:8080/611366/682256/22094
+#EXTINF:-1 tvg-id="US: FXX WEST" tvg-name="USA FXX West LHD" https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/fx-movie-channel.png" group-title="MOVIE CHANNELS📺",FXX UHD
+http://supersonictv.live:8080/611366/682256/22095
+#EXTINF:-1 group-title="MOVIE CHANNELS📺",HOLLYWOOD MOVIES
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
+#EXTINF:-1 tvg-id="US: MOVIEPLEX EAST" tvg-name="MOVIEPLEX  HD" group-title="MOVIE CHANNELS📺",MOVIEPLEX  HD
+#EXTINF:-1 group-title="MOVIE CHANNELS📺",MovieSphere
+https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="US: STARZ EAST" tvg-name="StarZ East UHD" group-title="MOVIE CHANNELS📺",StarZ 1
+http://supersonictv.live:8080/611366/682256/22918
+#EXTINF:-1 tvg-id="US: STARZ WEST" tvg-name="Starz West UHD" group-title="MOVIE CHANNELS📺",Starz 2
+http://supersonictv.live:8080/611366/682256/22919
+#EXTINF:-1 tvg-id="US: STARZ CINEMA" tvg-name="Starz Cinema UHD" group-title="MOVIE CHANNELS📺",Starz Cinema UHD
+http://supersonictv.live:8080/611366/682256/22920
+#EXTINF:-1 tvg-id="US: STARZ EDGE" tvg-name="Starz Edge UHD" group-title="MOVIE CHANNELS📺",Starz Edge UHD
+http://supersonictv.live:8080/611366/682256/22922
+#EXTINF:-1 tvg-id="US: STARZ IN BLACK" tvg-name="Starz in Black UHD" group-title="MOVIE CHANNELS📺",Starz in Black UHD
+http://supersonictv.live:8080/611366/682256/22923
+#EXTINF:-1 tvg-id="US: STARZ KIDS AND FAMILY" tvg-name="Starz Kids & Family UHD" group-title="MOVIE CHANNELS📺",Starz Kids & Family UHD
+http://supersonictv.live:8080/611366/682256/22924
+#EXTINF:-1 tvg-id="US: STARZ WEST" tvg-name="Starz Encore West UHD" group-title="MOVIE CHANNELS📺",Starz Encore
+http://supersonictv.live:8080/611366/682256/22926
+#EXTINF:-1 tvg-id="US: STARZENCORE ACTION" tvg-name="Starz Encore Action UHD" group-title="MOVIE CHANNELS📺",Starz Encore Action UHD
+http://supersonictv.live:8080/611366/682256/22927
+#EXTINF:-1 tvg-id="US: STARZENCORE CLASSIC" tvg-name="Starz Encore Classic UHD" group-title="MOVIE CHANNELS📺",Starz Encore Classic UHD
+http://supersonictv.live:8080/611366/682256/22929
+#EXTINF:-1 tvg-id="US: STARZENCORE FAMILY" tvg-name="Starz Encore Family UHD" group-title="MOVIE CHANNELS📺",Starz Encore Family UHD
+http://supersonictv.live:8080/611366/682256/22930
+#EXTINF:-1 tvg-id="US: STARZENCORE SUSPENSE" tvg-name="Starz Encore Suspense UHD" group-title="MOVIE CHANNELS📺",Starz Encore Suspense UHD
+http://supersonictv.live:8080/611366/682256/22931
+
+
 **********RYANTV V3 CHANNELS**********
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AnimeX" tvg-logo="https://i.imghippo.com/files/GnSL7555RRE.webp" group-title="RYANTV CHANNELS",AnimeX
