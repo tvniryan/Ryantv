@@ -4,7 +4,7 @@ M3U playlist
 M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
-https://www.mediafire.com/file/p73z9bxqqbgfcnv/RYANTV_BM.apk/file
+
 
 #EXTINF:-1 group-title="NBA LEAGUE PASS" tvg-id="NBC.Sports.Bay.Area.us" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" tvg-name="NBA LEAGUE PASS",NBA LEAGUE PASS
 http://159.100.22.120:7860/proxy?url=https://windnew.newkso.ru/wind/premium753/mono.m3u8
@@ -16,24 +16,6 @@ http://supersonictv.live:8080/live/Jacq/Carr8476/86042.m3u8
 
 #EXTINF:-1 tvg-id="RYANTV" tvg-name="SONY PIX HD" tvg-logo="https://i.imghippo.com/files/cvoo8807zNw.jpg" group-title="RYANTV CHANNELS",SONY PIX HD
 http://supersonictv.live:8080/611366/682256/22879
-
-#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Hawks @ Rockets • Oct 6 at 5:00 PM PDT" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" group-title="NBA LEAGUE PASS",
-#EXTVLCOPT:http-referrer=https://nbawebcast.app/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
-#EXTVLCOPT:http-origin=https://nbawebcast.app/
-https://live.webcastserver.online/hdstream/embed/160.m3u8
-
-#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Nuggets @ Raptors • Oct 6 at 7:00 PM PDT" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" group-title="NBA LEAGUE PASS",
-#EXTVLCOPT:http-referrer=https://nbawebcast.app/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
-#EXTVLCOPT:http-origin=https://nbawebcast.app/
-https://live.webcastserver.online/hdstream/embed/142.m3u8
-
-#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Thunder @ Mavericks • Oct 6 at 5:30 PM PDT" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" group-title="NBA LEAGUE PASS",
-#EXTVLCOPT:http-referrer=https://nbawebcast.app/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
-#EXTVLCOPT:http-origin=https://nbawebcast.app/
-https://live.webcastserver.online/hdstream/embed/156.m3u8
 
 #EXTINF:-1 tvg-id="US: 5 STARMAX" tvg-name="CINEMAX 5 STARMAX UHD" group-title="MOVIE CHANNELS📺",CINEMAX 5 STARMAX UHD
 http://supersonictv.live:8080/611366/682256/22878
