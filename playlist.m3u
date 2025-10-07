@@ -5,19 +5,19 @@ M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA1" tvg-logo="https://i.imghippo.com/files/msuw9713pM.jpg" group-title="NBA LEAGUE PASS",NBA1
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA1" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" group-title="NBA LEAGUE PASS",NBA1
 http://fortv.cc:8080/53710359/53710359/22995
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA2" tvg-logo="https://i.imghippo.com/files/msuw9713pM.jpg" group-title="NBA LEAGUE PASS",NBA2
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA2" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" group-title="NBA LEAGUE PASS",NBA2
 http://fortv.cc:8080/53710359/53710359/20073
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA3" tvg-logo="https://i.imghippo.com/files/msuw9713pM.jpg" group-title="NBA LEAGUE PASS",NBA3
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA3" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" group-title="NBA LEAGUE PASS",NBA3
 http://fortv.cc:8080/CuWH2h/761034/210466
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA4" tvg-logo="https://i.imghippo.com/files/msuw9713pM.jpg" group-title="NBA LEAGUE PASS",NBA4
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA4" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" group-title="NBA LEAGUE PASS",NBA4
 http://fortv.cc:8080/CuWH2h/761034/210467
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA5" tvg-logo="https://i.imghippo.com/files/msuw9713pM.jpg" group-title="NBA LEAGUE PASS",NBA5
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA5" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" group-title="NBA LEAGUE PASS",NBA5
 http://fortv.cc:8080/CuWH2h/761034/210468
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA6" tvg-logo="https://i.imghippo.com/files/msuw9713pM.jpg" group-title="NBA LEAGUE PASS",NBA6
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA6" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" group-title="NBA LEAGUE PASS",NBA6
 http://fortv.cc:8080/CuWH2h/761034/210469
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA7" tvg-logo="https://i.imghippo.com/files/msuw9713pM.jpg" group-title="NBA LEAGUE PASS",NBA7
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA7" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" group-title="NBA LEAGUE PASS",NBA7
 http://fortv.cc:8080/CuWH2h/761034/210470
 
 #EXTINF:-1 group-title="NBA LEAGUE PASS" tvg-id="NBC.Sports.Bay.Area.us" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" tvg-name="NBA LEAGUE PASS",NBA LEAGUE PASS
