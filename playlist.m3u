@@ -4,7 +4,7 @@ M3U playlist
 M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
-
+http://cord-cutter.net:8080/bn80NG/909467/9900
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA1" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" group-title="NBA LEAGUE PASS",NBA1
 http://fortv.cc:8080/53710359/53710359/22995
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA2" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" group-title="NBA LEAGUE PASS",NBA2
@@ -21,7 +21,7 @@ http://fortv.cc:8080/CuWH2h/761034/210469
 http://fortv.cc:8080/CuWH2h/761034/210470
 
 #EXTINF:-1 group-title="NBA LEAGUE PASS" tvg-id="NBC.Sports.Bay.Area.us" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" tvg-name="NBA LEAGUE PASS",NBA LEAGUE PASS
-http://159.100.22.120:7860/proxy?url=https://windnew.newkso.ru/wind/premium753/mono.m3u8
+http://cord-cutter.net:8080/bn80NG/909467/9900
 #EXTINF:-1 group-title="NBA LEAGUE PASS" tvg-id="NBC.Sports.Bay.Area.us" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" tvg-name="NBA LEAGUE PASS",NBA LEAGUE PASS
 http://supersonictv.live:8080/live/Jacq/Carr8476/83043.m3u8
 
