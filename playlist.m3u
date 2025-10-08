@@ -79,6 +79,17 @@ http://supersonictv.live:8080/611366/682256/22930
 #EXTINF:-1 tvg-id="US: STARZENCORE SUSPENSE" tvg-name="Starz Encore Suspense UHD" group-title="MOVIE CHANNELS📺",Starz Encore Suspense UHD
 http://supersonictv.live:8080/611366/682256/22931
 
+#EXTINF:-1 tvg-id="FLS_6719351a9127383bf1afb7a0" tvg-logo="https://media.unreel.me/prod/freelivesports/logo/4454e89b-ea81-4752-a9bb-6db85b40a194" group-title="RYANTV CHANNELS",HOOP TV
+https://amg00585-amg00585c9-sportstribal-emea-5518.playouts.now.amagi.tv/playlist/amg00585-sportstribaltvfast-hooptv-sportstribalemea/playlist.m3u8?channel_name=HOOP%20TV&content_genre=Sport&ic=IAB17&provider=FreeLiveSports&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&gdpr_consent=[CONSENT_STRING]&coppa=0&content_livestream=1&p=sportstribal&url=[REF]&lmt=[LAT]&did=[DEVICE_ID]
+
+#EXTINF:-1 tvg-id="FLS_6675bc4b1de4405de4d48637" tvg-logo="https://media.unreel.me/prod/sportsplus/logo/c2e21836-abc5-4e50-875a-4aefa365e7f7" group-title="RYANTV CHANNELS",Stadium
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00585-sportstribaltv-stadium-sportstribal/playlist.m3u8?channel_name=Stadium&content_genre=Sport&ic=IAB17&provider=FreeLiveSports&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&gdpr_consent=[CONSENT_STRING]&coppa=0&content_livestream=1&p=sportstribal&url=[REF]&lmt=[LAT]&did=[DEVICE_ID]
+
+#EXTINF:-1 tvg-id="FLS_671936aee4b561864c211127" tvg-logo="https://media.unreel.me/prod/freelivesports/logo/a0198825-7700-4a3a-8399-338e8e1d9c64" group-title="RYANTV CHANNELS",ACE TV
+https://amg00585-amg00585c10-sportstribal-emea-5519.playouts.now.amagi.tv/playlist/amg00585-sportstribaltvfast-acetv-sportstribalemea/playlist.m3u8?channel_name=ACE%20TV&content_genre=Sport&ic=IAB17&provider=FreeLiveSports&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&gdpr_consent=[CONSENT_STRING]&coppa=0&content_livestream=1&p=sportstribal&url=[REF]&lmt=[LAT]&did=[DEVICE_ID]
+
+#EXTINF:-1 tvg-id="sportsnetone.ca" tvg-logo="https://i.imghippo.com/files/pZR3133xJ.jpg" tvg-name="RYANTV CHANNELS" RYANTV CHANNELS"RYANTV CHANNELS
+http://84423.xyz:8000/Bronder67-test/ZAHW9SU1IC-test/145499
 
 **********RYANTV V3 CHANNELS**********
 
