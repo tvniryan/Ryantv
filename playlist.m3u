@@ -28,9 +28,17 @@ http://cord-cutter.net:8080/bn80NG/909467/20946
 #EXTINF:-1 group-title="NBA LEAGUE PASS" tvg-id="NBC.Sports.Bay.Area.us" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" tvg-name="NBA LEAGUE PASS",NBA LEAGUE PASS
 http://supersonictv.live:8080/live/Jacq/Carr8476/86042.m3u8
 
+#EXTINF:-1 tvg-id="Baywatch" tvg-name="Baywatch" tvg-logo="https://d2suk8s18omb4k.cloudfront.net/LG_Baywatch_Logo_800x200.png" group-title="RYANTV CHANNELS",Baywatch
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00145-fremantlemedian-baywatch-lgus/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RomeComDrama" tvg-name="RomeComDrama" tvg-logo="https://img.platform.wurl.dev/channel/1756/lg/a2064b/LG-Logo-PNG-100x100_v1.png" group-title="RYANTV CHANNELS",RomCom K-Drama
+https://ee75dd7e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEdfUm9tQ29tS0RyYW1hX0hMUw/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RYANTV-Channel" tvg-name="RYANTV Premium" tvg-logo="https://i.imghippo.com/files/Vaob1686QI.jpg" group-title="RYANTV CHANNELS",SKY SPORTS F1
+http://cord-cutter.net:8080/bn80NG/909467/35244
+
 #EXTINF:-1 tvg-id="RYANTV" tvg-name="SONY PIX HD" tvg-logo="https://i.imghippo.com/files/cvoo8807zNw.jpg" group-title="RYANTV CHANNELS",SONY PIX HD
 http://supersonictv.live:8080/611366/682256/22879
-
 #EXTINF:-1 tvg-id="US: 5 STARMAX" tvg-name="CINEMAX 5 STARMAX UHD" group-title="MOVIE CHANNELS📺",CINEMAX 5 STARMAX UHD
 http://supersonictv.live:8080/611366/682256/22878
 #EXTINF:-1 tvg-id="US: CINEMAX WEST" tvg-name="Cinemax West UHD" group-title="MOVIE CHANNELS📺",Cinemax UHD1
