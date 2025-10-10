@@ -3,6 +3,38 @@
 M3U playlist 
 M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 
+
+#EXTINF:-1 tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg",RYANTV NBA League Pass 1
+http://affordablemedia.xyz:80/live/Lisa1234/Lisa1234/130458.m3u8
+#EXTINF:-1 tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg",RYANTV NBA League Pass 2
+http://affordablemedia.xyz:80/live/Lisa1234/Lisa1234/130464.m3u8
+#EXTINF:-1 tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg",RYANTV NBA League Pass 3
+http://affordablemedia.xyz:80/live/Lisa1234/Lisa1234/130466.m3u8
+#EXTINF:-1 tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg",RYANTV NBA League Pass 4
+http://affordablemedia.xyz:80/live/Lisa1234/Lisa1234/130473.m3u8
+#EXTINF:-1 tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg",RYANTV NBA League Pass 5
+http://affordablemedia.xyz:80/live/Lisa1234/Lisa1234/130478.m3u8
+#EXTINF:-1 tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg",RYANTV NBA League Pass 6
+http://affordablemedia.xyz:80/live/Lisa1234/Lisa1234/130489.m3u8
+#EXTINF:-1 tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg",RYANTV NBA League Pass 7
+http://affordablemedia.xyz:80/live/Lisa1234/Lisa1234/130537.m3u8
+#EXTINF:-1 tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg",RYANTV NBA League Pass 8
+http://affordablemedia.xyz:80/live/Lisa1234/Lisa1234/130483.m3u8
+#EXTINF:-1 tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg",RYANTV NBA League Pass 9
+http://affordablemedia.xyz:80/live/Lisa1234/Lisa1234/130477.m3u8
+#EXTINF:-1 tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg",RYANTV NBA League Pass 10
+http://affordablemedia.xyz:80/live/Lisa1234/Lisa1234/130535.m3u8
+#EXTINF:-1 tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg",RYANTV NBA League Pass 11
+http://affordablemedia.xyz:80/live/Lisa1234/Lisa1234/130536.m3u8
+#EXTINF:-1 tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg",RYANTV NBA League Pass 12
+http://affordablemedia.xyz:80/live/Lisa1234/Lisa1234/130539.m3u8
+#EXTINF:-1 tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg",RYANTV NBA League Pass 13
+http://affordablemedia.xyz:80/live/Lisa1234/Lisa1234/130570.m3u8
+#EXTINF:-1 tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg",RYANTV NBA League Pass 14
+http://affordablemedia.xyz:80/live/Lisa1234/Lisa1234/130491.m3u8
+#EXTINF:-1 tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg",RYANTV NBA League Pass 15
+http://affordablemedia.xyz:80/live/Lisa1234/Lisa1234/130495.m3u8
+
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
 http://cord-cutter.net:8080/bn80NG/909467/9900
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA1" tvg-logo="https://i.imghippo.com/files/MKi3692Aw.jpg" group-title="NBA LEAGUE PASS",NBA1
