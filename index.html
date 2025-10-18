@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>RYANTV Web TV Browser</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #222; color: #fff; margin: 0; }
+    #channels { max-width: 400px; height: 94vh; overflow-y: auto; background: #111; padding: 10px; }
+    #player { width: 100%; height: 75vh; background: #000; margin-left: 20px;}
+    .channel { cursor: pointer; margin: 10px 0; padding: 5px; border-radius: 5px; transition: background 0.2s;}
+    .channel:hover { background: #333; }
+    .logo { width: 48px; height: 48px; object-fit: contain; vertical-align: middle; border-radius: 6px; margin-right: 10px; }
+    .container { display: flex; gap: 20px; }
+    h2 { margin-top: 0; }
+    #status { color: #ff9999; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="channels"></div>
+    <div id="player">
+      <video id="videoPlayer" controls autoplay style="width:100%;height:100%;background:#000"></video>
+      <div id="status"></div>
+    </div>
+  </div>
+  <script>
+    // M3U playlist URL
+    const playlistUrl = "https://raw.githubusercontent.com/tvniryan/Ryantv/97a69d444873ee8af9896e45d20937d0a3981c42/playlist.m3u";
+
+    async function fetchPlaylist(url) {
+      const res = await fetch(url);
+      return await res.text();
+    }
+
+    function parseM3U(m3u) {
+      const lines = m3u.split('\n');
+      const channels = [];
+      for (let i = 0; i < lines.length; i++) {
+        if (lines[i].startsWith('#EXTINF')) {
+          let info = lines[i];
+          let logoMatch = info.match(/tvg-logo="([^"]+)"/);
+          let nameMatch = info.match(/,(.+)$/);
+          let url = '';
+          // Find next non-comment line for stream url
+          for (let j = i + 1; j < lines.length; j++) {
+            if (lines[j].trim() && !lines[j].startsWith('#')) {
+              url = lines[j].trim();
+              break;
+            }
+          }
+          // HLS (.m3u8) or MP4 only, skip DASH/Widevine for browser compatibility
+          if (url.match(/\.m3u8($|\?)/) || url.match(/\.mp4($|\?)/)) {
+            channels.push({
+              name: nameMatch ? nameMatch[1].trim() : 'Unknown',
+              logo: logoMatch ? logoMatch[1] : '',
+              url
+            });
+          }
+        }
+      }
+      return channels;
+    }
+
+    function renderChannels(channels) {
+      const list = document.getElementById('channels');
+      list.innerHTML = "<h2>Channels (HLS only)</h2>";
+      channels.forEach((ch, idx) => {
+        const div = document.createElement('div');
+        div.className = 'channel';
+        div.innerHTML = `<img class="logo" src="${ch.logo}" alt="">${ch.name}`;
+        div.onclick = () => playChannel(ch.url, ch.name);
+        list.appendChild(div);
+      });
+      if (channels.length === 0) {
+        list.innerHTML += "<p>Walang makuhang HLS stream na compatible sa browser.<br>Subukan mo magdagdag ng .m3u8 stream sa playlist mo.</p>";
+      }
+    }
+
+    function playChannel(url, name) {
+      const player = document.getElementById('videoPlayer');
+      const status = document.getElementById('status');
+      player.src = url;
+      player.play();
+      status.textContent = `Now Playing: ${name}`;
+    }
+
+    // Main
+    fetchPlaylist(playlistUrl)
+      .then(parseM3U)
+      .then(renderChannels)
+      .catch(e => {
+        document.getElementById('channels').innerHTML = 'Failed to load playlist.';
+        console.error(e);
+      });
+  </script>
+</body>
+</html>
