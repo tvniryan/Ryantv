@@ -2,30 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>RYANTV Web TV Browser</title>
+  <title>RYANTV Web TV Browser - Netflix Style</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <style>
-    body { font-family: Arial, sans-serif; background: #222; color: #fff; margin: 0; }
-    #channels { max-width: 400px; height: 94vh; overflow-y: auto; background: #111; padding: 10px; }
-    #player { width: 100%; height: 75vh; background: #000; margin-left: 20px;}
-    .channel { cursor: pointer; margin: 10px 0; padding: 5px; border-radius: 5px; transition: background 0.2s;}
-    .channel:hover { background: #333; }
-    .logo { width: 48px; height: 48px; object-fit: contain; vertical-align: middle; border-radius: 6px; margin-right: 10px; }
-    .container { display: flex; gap: 20px; }
-    h2 { margin-top: 0; }
-    #status { color: #ff9999; font-weight: bold; }
+    body { font-family: Arial, sans-serif; background: #181818; color: #fff; margin: 0; }
+    h1 { text-align: center; font-size: 2em; margin: 1em 0 0.5em 0; }
+    .search-bar { display: flex; justify-content: center; margin: 1em 0; }
+    .search-bar input { width: 320px; padding: 8px; font-size: 1em; border-radius: 5px; border: none; background: #222; color: #fff; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 20px; padding: 20px; }
+    .card { background: #222; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px #0004; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; align-items: center; }
+    .card:hover { transform: scale(1.04); box-shadow: 0 4px 16px #0006; }
+    .logo { width: 100px; height: 100px; object-fit: contain; background: #111; margin-top: 18px; border-radius: 8px; }
+    .channel-name { margin: 12px 0 18px 0; font-size: 1em; text-align: center; min-height: 2em; }
+    @media (max-width: 600px) {
+      .grid { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; padding: 12px; }
+      .logo { width: 70px; height: 70px; margin-top: 8px; }
+      .channel-name { font-size: 0.95em; margin: 8px 0 12px 0; }
+    }
+    /* Modal styles */
+    .modal-bg { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: #000c; z-index: 999; display: flex; align-items: center; justify-content: center; }
+    .modal { background: #222; border-radius: 16px; padding: 24px; max-width: 95vw; max-height: 90vh; box-shadow: 0 4px 24px #0008; position: relative; }
+    .modal video { width: 70vw; max-width: 550px; height: 48vw; max-height: 310px; background: #000; border-radius: 10px; display: block; margin: 0 auto 12px auto; }
+    .modal .modal-channel-name { text-align: center; font-size: 1.3em; margin-bottom: 6px; }
+    .close-btn { position: absolute; top: 16px; right: 18px; font-size: 1.8em; color: #fff; background: transparent; border: none; cursor: pointer; }
+    @media (max-width: 600px) {
+      .modal video { width: 94vw; max-width: 94vw; height: 55vw; max-height: 220px; }
+      .modal { padding: 12px; }
+      .close-btn { top: 7px; right: 10px; font-size: 1.4em; }
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div id="channels"></div>
-    <div id="player">
-      <video id="videoPlayer" controls autoplay style="width:100%;height:100%;background:#000"></video>
-      <div id="status"></div>
-    </div>
+  <h1>RYANTV Web TV <span style="color:#e50914">[Netflix Style]</span></h1>
+  <div class="search-bar">
+    <input type="text" id="search" placeholder="Search channels...">
   </div>
+  <div id="grid" class="grid"></div>
+
+  <div id="modal-bg" style="display:none"></div>
+
   <script>
-    // M3U playlist URL
     const playlistUrl = "https://raw.githubusercontent.com/tvniryan/Ryantv/97a69d444873ee8af9896e45d20937d0a3981c42/playlist.m3u";
+    let channels = [];
 
     async function fetchPlaylist(url) {
       const res = await fetch(url);
@@ -34,62 +52,91 @@
 
     function parseM3U(m3u) {
       const lines = m3u.split('\n');
-      const channels = [];
+      const out = [];
       for (let i = 0; i < lines.length; i++) {
         if (lines[i].startsWith('#EXTINF')) {
           let info = lines[i];
           let logoMatch = info.match(/tvg-logo="([^"]+)"/);
           let nameMatch = info.match(/,(.+)$/);
           let url = '';
-          // Find next non-comment line for stream url
           for (let j = i + 1; j < lines.length; j++) {
             if (lines[j].trim() && !lines[j].startsWith('#')) {
               url = lines[j].trim();
               break;
             }
           }
-          // HLS (.m3u8) or MP4 only, skip DASH/Widevine for browser compatibility
+          // Only show HLS (.m3u8) or MP4 for browser compatibility
           if (url.match(/\.m3u8($|\?)/) || url.match(/\.mp4($|\?)/)) {
-            channels.push({
+            out.push({
               name: nameMatch ? nameMatch[1].trim() : 'Unknown',
-              logo: logoMatch ? logoMatch[1] : '',
+              logo: logoMatch ? logoMatch[1] : 'https://i.imgur.com/fDhBrB4.png',
               url
             });
           }
         }
       }
-      return channels;
+      return out;
     }
 
-    function renderChannels(channels) {
-      const list = document.getElementById('channels');
-      list.innerHTML = "<h2>Channels (HLS only)</h2>";
-      channels.forEach((ch, idx) => {
-        const div = document.createElement('div');
-        div.className = 'channel';
-        div.innerHTML = `<img class="logo" src="${ch.logo}" alt="">${ch.name}`;
-        div.onclick = () => playChannel(ch.url, ch.name);
-        list.appendChild(div);
-      });
-      if (channels.length === 0) {
-        list.innerHTML += "<p>Walang makuhang HLS stream na compatible sa browser.<br>Subukan mo magdagdag ng .m3u8 stream sa playlist mo.</p>";
+    function renderGrid(list) {
+      const grid = document.getElementById('grid');
+      grid.innerHTML = '';
+      if (list.length === 0) {
+        grid.innerHTML = "<div style='grid-column:1/-1;text-align:center;font-size:1.2em;color:#e50914'>No channels found.</div>";
+        return;
       }
+      list.forEach((ch, idx) => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+          <img class="logo" src="${ch.logo}" alt="${ch.name}">
+          <div class="channel-name">${ch.name}</div>
+        `;
+        card.onclick = () => showModal(ch);
+        grid.appendChild(card);
+      });
     }
 
-    function playChannel(url, name) {
-      const player = document.getElementById('videoPlayer');
-      const status = document.getElementById('status');
-      player.src = url;
-      player.play();
-      status.textContent = `Now Playing: ${name}`;
+    function showModal(channel) {
+      const modalBg = document.getElementById('modal-bg');
+      modalBg.innerHTML = `
+        <div class="modal">
+          <button class="close-btn" onclick="closeModal()">&times;</button>
+          <div class="modal-channel-name">${channel.name}</div>
+          <video src="${channel.url}" controls autoplay></video>
+        </div>
+      `;
+      modalBg.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
     }
+
+    function closeModal() {
+      const modalBg = document.getElementById('modal-bg');
+      modalBg.style.display = 'none';
+      modalBg.innerHTML = '';
+      document.body.style.overflow = '';
+    }
+
+    document.getElementById('modal-bg').onclick = function(e) {
+      if (e.target.id === 'modal-bg') closeModal();
+    }
+
+    // Search functionality
+    document.getElementById('search').addEventListener('input', function(e) {
+      const term = e.target.value.toLowerCase();
+      const filtered = channels.filter(ch => ch.name.toLowerCase().includes(term));
+      renderGrid(filtered);
+    });
 
     // Main
     fetchPlaylist(playlistUrl)
       .then(parseM3U)
-      .then(renderChannels)
+      .then((chlist) => {
+        channels = chlist;
+        renderGrid(channels);
+      })
       .catch(e => {
-        document.getElementById('channels').innerHTML = 'Failed to load playlist.';
+        document.getElementById('grid').innerHTML = "<div style='color:#e50914;text-align:center'>Failed to load playlist.</div>";
         console.error(e);
       });
   </script>
