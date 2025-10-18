@@ -2,205 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>RYANTV Web TV Browser - Netflix Style + Shaka</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/shaka-player.compiled.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RYANTV Web</title>
   <style>
-    body { font-family: Arial, sans-serif; background: #181818; color: #fff; margin: 0; }
-    h1 { text-align: center; font-size: 2em; margin: 1em 0 0.5em 0; }
-    .search-bar { display: flex; justify-content: center; margin: 1em 0; }
-    .search-bar input { width: 320px; padding: 8px; font-size: 1em; border-radius: 5px; border: none; background: #222; color: #fff; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 20px; padding: 20px; }
-    .card { background: #222; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px #0004; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; align-items: center; }
-    .card:hover { transform: scale(1.04); box-shadow: 0 4px 16px #0006; }
-    .logo { width: 100px; height: 100px; object-fit: contain; background: #111; margin-top: 18px; border-radius: 8px; }
-    .channel-name { margin: 12px 0 18px 0; font-size: 1em; text-align: center; min-height: 2em; }
-    @media (max-width: 600px) {
-      .grid { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; padding: 12px; }
-      .logo { width: 70px; height: 70px; margin-top: 8px; }
-      .channel-name { font-size: 0.95em; margin: 8px 0 12px 0; }
+    body {
+      margin: 0;
+      background: #0a0a23;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
     }
-    .modal-bg { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: #000c; z-index: 999; display: flex; align-items: center; justify-content: center; }
-    .modal { background: #222; border-radius: 16px; padding: 24px; max-width: 95vw; max-height: 90vh; box-shadow: 0 4px 24px #0008; position: relative; }
-    .modal video { width: 70vw; max-width: 550px; height: 48vw; max-height: 310px; background: #000; border-radius: 10px; display: block; margin: 0 auto 12px auto; }
-    .modal .modal-channel-name { text-align: center; font-size: 1.3em; margin-bottom: 6px; }
-    .close-btn { position: absolute; top: 16px; right: 18px; font-size: 1.8em; color: #fff; background: transparent; border: none; cursor: pointer; }
-    .modal-status { text-align:center; color:#e50914; margin:10px 0 0 0;}
-    @media (max-width: 600px) {
-      .modal video { width: 94vw; max-width: 94vw; height: 55vw; max-height: 220px; }
-      .modal { padding: 12px; }
-      .close-btn { top: 7px; right: 10px; font-size: 1.4em; }
+    header {
+      background: url('https://copilot.microsoft.com/th/id/BCO.68711cce-d461-45cf-8a7a-d5fb56646ad2.png') no-repeat center;
+      background-size: contain;
+      height: 220px;
+    }
+    h1 {
+      margin-top: 10px;
+      font-size: 24px;
+      letter-spacing: 2px;
+    }
+    select, button {
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+    }
+    video {
+      width: 100%;
+      max-width: 720px;
+      margin-top: 20px;
+      border-radius: 12px;
     }
   </style>
 </head>
 <body>
-  <h1>RYANTV Web TV <span style="color:#e50914">[Netflix Style + Shaka]</span></h1>
-  <div class="search-bar">
-    <input type="text" id="search" placeholder="Search channels...">
-  </div>
-  <div id="grid" class="grid"></div>
-  <div id="modal-bg" style="display:none"></div>
+  <header></header>
+  <h1>LIVE PLAYLIST</h1>
+  <select id="playlist">
+    <option value="https://example.com/nba.m3u8">NBA League Pass</option>
+    <option value="https://example.com/anime.m3u8">Anime Marathon</option>
+    <option value="https://example.com/movies.m3u8">Movie Night</option>
+  </select>
+  <button onclick="changeStream()">WATCH</button>
+  <video id="player" controls autoplay></video>
+
   <script>
-    const playlistUrl = "https://raw.githubusercontent.com/tvniryan/Ryantv/97a69d444873ee8af9896e45d20937d0a3981c42/playlist.m3u";
-    let channels = [];
-
-    async function fetchPlaylist(url) {
-      const res = await fetch(url);
-      return await res.text();
-    }
-
-    function parseM3U(m3u) {
-      const lines = m3u.split('\n');
-      const out = [];
-      for (let i = 0; i < lines.length; i++) {
-        if (lines[i].startsWith('#EXTINF')) {
-          let info = lines[i];
-          let logoMatch = info.match(/tvg-logo=\"([^\"]+)\"/);
-          let nameMatch = info.match(/,(.+)$/);
-          let url = '';
-          let props = {};
-          let k = i + 1;
-          while (k < lines.length && lines[k].startsWith('#KODIPROP')) {
-            let p = lines[k].split(':');
-            props[p[0].replace('#','')] = p[1];
-            k++;
-          }
-          for (let j = k; j < lines.length; j++) {
-            if (lines[j].trim() && !lines[j].startsWith('#')) {
-              url = lines[j].trim();
-              break;
-            }
-          }
-          // Identify stream type
-          let type = 'hls';
-          if (url.match(/\.mpd($|\?)/)) type = 'dash';
-          else if (url.match(/\.m3u8($|\?)/) || url.match(/\.mp4($|\?)/)) type = 'hls';
-          else continue;
-          out.push({
-            name: nameMatch ? nameMatch[1].trim() : 'Unknown',
-            logo: logoMatch ? logoMatch[1] : 'https://i.imgur.com/fDhBrB4.png',
-            url,
-            type,
-            props
-          });
-        }
-      }
-      return out;
-    }
-
-    function renderGrid(list) {
-      const grid = document.getElementById('grid');
-      grid.innerHTML = '';
-      if (list.length === 0) {
-        grid.innerHTML = "<div style='grid-column:1/-1;text-align:center;font-size:1.2em;color:#e50914'>No channels found.</div>";
-        return;
-      }
-      list.forEach((ch, idx) => {
-        const card = document.createElement('div');
-        card.className = 'card';
-        card.innerHTML = `
-          <img class=\"logo\" src=\"${ch.logo}\" alt=\"${ch.name}\">
-          <div class=\"channel-name\">${ch.name}</div>
-        `;
-        card.onclick = () => showModal(ch);
-        grid.appendChild(card);
-      });
-    }
-
-    function showModal(channel) {
-      const modalBg = document.getElementById('modal-bg');
-      modalBg.innerHTML = `
-        <div class=\"modal\">
-          <button class=\"close-btn\" onclick=\"closeModal()\">&times;</button>
-          <div class=\"modal-channel-name\">${channel.name}</div>
-          <div id=\"vid-container\"></div>
-          <div id=\"modal-status\" class=\"modal-status\"></div>
-        </div>
-      `;
-      modalBg.style.display = 'flex';
-      document.body.style.overflow = 'hidden';
-
-      const vidContainer = modalBg.querySelector('#vid-container');
-      if (channel.type === 'hls') {
-        vidContainer.innerHTML = `<video id=\"playervid\" src=\"${channel.url}\" controls autoplay style=\"width:100%;max-width:550px;background:#000;border-radius:10px\"></video>`;
-        modalBg.querySelector('#modal-status').textContent = '';
-      } else if (channel.type === 'dash') {
-        vidContainer.innerHTML = `<video id=\"shakavid\" controls autoplay style=\"width:100%;max-width:550px;background:#000;border-radius:10px\"></video>`;
-        setTimeout(() => {
-          loadShakaPlayer(channel);
-        }, 200);
-      }
-    }
-
-    function closeModal() {
-      const modalBg = document.getElementById('modal-bg');
-      modalBg.style.display = 'none';
-      modalBg.innerHTML = '';
-      document.body.style.overflow = '';
-    }
-
-    document.getElementById('modal-bg').onclick = function(e) {
-      if (e.target.id === 'modal-bg') closeModal();
-    }
-
-    document.getElementById('search').addEventListener('input', function(e) {
-      const term = e.target.value.toLowerCase();
-      const filtered = channels.filter(ch => ch.name.toLowerCase().includes(term));
-      renderGrid(filtered);
-    });
-
-    function loadShakaPlayer(channel) {
-      const video = document.getElementById('shakavid');
-      if (!video) return;
-      if (!window.shaka) {
-        document.getElementById('modal-status').textContent = 'Shaka Player library missing!';
-        return;
-      }
-      shaka.polyfill.installAll();
-      const player = new shaka.Player(video);
-      player.addEventListener('error', onShakaErrorEvent);
-      // License config (clearkey only, Widevine not supported in browser)
-      if (channel.props['KODIPROP:inputstream.adaptive.license_type'] === 'org.w3.clearkey' && channel.props['KODIPROP:inputstream.adaptive.license_key']) {
-        let keys = channel.props['KODIPROP:inputstream.adaptive.license_key'];
-        // clearkey config
-        player.configure({
-          drm: {
-            clearKeys: parseClearkey(keys)
-          }
-        });
-      }
-      player.load(channel.url).then(function() {
-        document.getElementById('modal-status').textContent = '';
-      }).catch(function(error) {
-        document.getElementById('modal-status').textContent = 'Error: ' + error.message;
-      });
-    }
-
-    function parseClearkey(licenseKey) {
-      // Example: abba271e8bcf552bbd2e86a434a9a5d9:69eaa802a6763af979e8d1940fb88392
-      let obj = {};
-      let keys = licenseKey.split(',');
-      keys.forEach(k => {
-        let parts = k.split(':');
-        if (parts.length === 2) obj[parts[0]] = parts[1];
-      });
-      return obj;
-    }
-
-    // Main
-    fetchPlaylist(playlistUrl)
-      .then(parseM3U)
-      .then((chlist) => {
-        channels = chlist;
-        renderGrid(channels);
-      })
-      .catch(e => {
-        document.getElementById('grid').innerHTML = "<div style='color:#e50914;text-align:center'>Failed to load playlist.</div>";
-        console.error(e);
-      });
-
-    function onShakaErrorEvent(event) {
-      document.getElementById('modal-status').textContent = 'Shaka Error: ' + event.detail.message;
+    function changeStream() {
+      const url = document.getElementById('playlist').value;
+      document.getElementById('player').src = url;
     }
   </script>
 </body>
