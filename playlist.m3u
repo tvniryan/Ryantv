@@ -6,7 +6,7 @@ M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 
 
 #EXTINF:-1 tvg-id="NBATV" tvg-name="NBA TV" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",NBA TV
-http://vp-txpro.com:80/live/5SC1026/7DCZqRd4JYyq/38667.m3u8
+http://fortv.cc:8080/live/Tacha257/gNs7lQv84F/20073.ts
 #EXTINF:-1 tvg-id="AtlantaHawks.nba" tvg-name="Atlanta Hawks" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",Atlanta Hawks
 http://vp-txpro.com:80/live/5SC1026/7DCZqRd4JYyq/38668.m3u8
 #EXTINF:-1 tvg-id="NBA-BostonCeltics.us" tvg-name="Boston Celtics" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",Boston Celtics
@@ -18,7 +18,7 @@ http://vp-txpro.com:80/live/5SC1026/7DCZqRd4JYyq/38671.m3u8
 #EXTINF:-1 tvg-id="NBA-ChicagoBulls.us" tvg-name="Chicago Bulls" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",Chicago Bulls
 http://vp-txpro.com:80/live/5SC1026/7DCZqRd4JYyq/38672.m3u8
 #EXTINF:-1 tvg-id="ClevelandCavaliers.nba" tvg-name="Cleveland Cavaliers" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",Cleveland Cavaliers
-http://vp-txpro.com:80/live/5SC1026/7DCZqRd4JYyq/38673.m3u8
+http://fortv.cc:8080/live/Tacha257/gNs7lQv84F/253607.ts
 #EXTINF:-1 tvg-id="NBA-DallasMavericks.us" tvg-name="Dallas Mavericks" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",Dallas Mavericks
 http://vp-txpro.com:80/live/5SC1026/7DCZqRd4JYyq/38674.m3u8
 #EXTINF:-1 tvg-id="NBA-DenverNuggets.us" tvg-name="Denver Nuggets" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",Denver Nuggets
