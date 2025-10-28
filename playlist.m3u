@@ -8,11 +8,11 @@ M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 #EXTINF:-1 tvg-id="NBATV" tvg-name="NBA TV" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",NBA TV
 http://fortv.cc:8080/live/Tacha257/gNs7lQv84F/20073.ts
 #EXTINF:-1 tvg-id="AtlantaHawks.nba" tvg-name="Atlanta Hawks" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",Atlanta Hawks
-http://vp-txpro.com:80/live/5SC1026/7DCZqRd4JYyq/38668.m3u8
+http://fortv.cc:8080/live/Tacha257/gNs7lQv84F/253613.ts
 #EXTINF:-1 tvg-id="NBA-BostonCeltics.us" tvg-name="Boston Celtics" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",Boston Celtics
-http://vp-txpro.com:80/live/5SC1026/7DCZqRd4JYyq/38669.m3u8
+http://fortv.cc:8080/live/Tacha257/gNs7lQv84F/253616.ts
 #EXTINF:-1 tvg-id="BrooklynNets.nba" tvg-name="Brooklyn Nets" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",Brooklyn Nets
-http://vp-txpro.com:80/live/5SC1026/7DCZqRd4JYyq/38670.m3u8
+http://fortv.cc:8080/live/Tacha257/gNs7lQv84F/253614.ts
 #EXTINF:-1 tvg-id="CharlotteHornets.nba" tvg-name="Charlotte Hornets" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",Charlotte Hornets
 http://vp-txpro.com:80/live/5SC1026/7DCZqRd4JYyq/38671.m3u8
 #EXTINF:-1 tvg-id="NBA-ChicagoBulls.us" tvg-name="Chicago Bulls" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",Chicago Bulls
@@ -50,11 +50,11 @@ http://vp-txpro.com:80/live/5SC1026/7DCZqRd4JYyq/38687.m3u8
 #EXTINF:-1 tvg-id="OklahomaCityThunder.nba" tvg-name="Oklahoma City Thunder" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",Oklahoma City Thunder
 http://vp-txpro.com:80/live/5SC1026/7DCZqRd4JYyq/38688.m3u8
 #EXTINF:-1 tvg-id="OrlandoMagic.nba" tvg-name="Orlando Magic" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",Orlando Magic
-http://vp-txpro.com:80/live/5SC1026/7DCZqRd4JYyq/38689.m3u8
+http://fortv.cc:8080/live/Tacha257/gNs7lQv84F/253610.ts
 #EXTINF:-1 tvg-id="Philadelphia76ers.nba" tvg-name="Philadelphia 76ers" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",Philadelphia 76ers
 http://vp-txpro.com:80/live/5SC1026/7DCZqRd4JYyq/38690.m3u8
 #EXTINF:-1 tvg-id="PhoenixSuns.nba" tvg-name="Phoenix Suns" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",Phoenix Suns
-http://vp-txpro.com:80/live/5SC1026/7DCZqRd4JYyq/38691.m3u8
+http://fortv.cc:8080/live/Tacha257/gNs7lQv84F/253622.ts
 #EXTINF:-1 tvg-id="NBA-PortlandTrailBlazers.us" tvg-name="Portland Trail Blazers" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",Portland Trail Blazers
 http://vp-txpro.com:80/live/5SC1026/7DCZqRd4JYyq/38692.m3u8
 #EXTINF:-1 tvg-id="NBA-SacramentoKings.us" tvg-name="Sacramento Kings" tvg-logo="https://vp-txpro.com:443/images/9KHE8RQBvg9mzhjSf-IKKjfREtUUOQ1w-zlWJ9zg2cDWSnjWscLgTN96qKIQpxpY.jpg" group-title="NBA LEAGUE PASS",Sacramento Kings
