@@ -10,7 +10,7 @@ M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 https://vod.nathcreqtives.com/1093/manifest.mpd
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://www.thefightcity.com/wp-content/uploads/2019/10/HBO-logo-image-1-620x396.jpgg" group-title="RYANTV CHANNELS", HBO Boxing
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imghippo.com/files/XOm9440too.png" group-title="RYANTV CHANNELS", HBO Boxing
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
