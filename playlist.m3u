@@ -3,11 +3,8 @@
 M3U playlist 
 M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/Cu1tAY8.png" group-title="RYANTV CHANNELS" ,GMA7
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=31363231383438333031323033393138:38694e34324d543478316b7455753437
-https://vod.nathcreqtives.com/1093/manifest.mpd
+#EXTINF:1 group-title="RYANTV CHANNELS" tvg-id="convergenceinc/gmanetwork" tvg-logo="https://i.imgur.com/Cu1tAY8.png" provider="Convergence inc" provider-logo="" provider-type="iptv",Gma7
+https://vod.nathcreqtives.com/stream/convergenceinc/gmanetwork/master.m3u8?u=phc&p=dceb8cb821916208321105acde58f049b772f6f2e480d21a23dc195bab864d93
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imghippo.com/files/XOm9440too.png" group-title="RYANTV CHANNELS", HBO Boxing
