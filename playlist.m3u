@@ -18,7 +18,7 @@ http://vod.nathcreqtives.com/stream/convergenceinc/cinemo/master.m3u8?u=phc&p=fd
 http://utube.cocker-tk.workers.dev/UCKL5hAuzgFQsyrsQKgU0Qng/master.m3u8
 
 #EXTINF:2 group-title="RYANTV CHANNELS" tvg-id="convergenceinc/gtv" tvg-logo="https://i.imghippo.com/files/JRpn2499bM.jpg" provider="Convergence inc" provider-logo="" provider-type="iptv",GTV
-http://vod.nathcreqtives.com/stream/convergenceinc/gtv/master.m3u8?u=phc&p=fd65e8f78f430cd1a48bf2c07b9c0ace241775f6b2c9698a9ea01988d871da6e
+http://utube.cocker-tk.workers.dev/SzlMfJI46-0/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://cdn.nba.com/manage/2021/02/NBATV-logo-horizontal.jpg" group-title="RYANTV CHANNELS", NBA
 #KODIPROP:inputstreamaddon=inputstream.adaptive
