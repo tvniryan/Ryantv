@@ -3,11 +3,7 @@
 M3U playlist 
 M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 ####£#£###££######################2222
-#EXTINF:1 group-title="RYANTV CHANNELS" tvg-id="convergenceinc/gmanetwork" tvg-logo="https://i.imghippo.com/files/ik8284NWg.jpg" provider="Convergence inc" provider-logo="" provider-type="iptv",CINEMA ONE PH
-http://vod.nathcreqtives.com/stream/convergenceinc/cinemaone/master.m3u8?u=phc&p=fd65e8f78f430cd1a48bf2c07b9c0ace241775f6b2c9698a9ea01988d871da6e
 
-#EXTINF:1 group-title="RYANTV CHANNELS" tvg-id="convergenceinc/gmanetwork" tvg-logo="https://i.imghippo.com/files/wiL3752jg.jpg" provider="Convergence inc" provider-logo="" provider-type="iptv",CINEMO!PH
-http://vod.nathcreqtives.com/stream/convergenceinc/cinemo/master.m3u8?u=phc&p=fd65e8f78f430cd1a48bf2c07b9c0ace241775f6b2c9698a9ea01988d871da6e
 
 ################£#££#£################
 
