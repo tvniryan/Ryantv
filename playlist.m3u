@@ -3,7 +3,12 @@
 M3U playlist 
 M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 ####£#£###££######################2222
-
+#EXTINF:-1  tvg-logo="http://wtv.la:900/images/9a7URTaq1Eimlg2ZujPX9FdOeGK_big.jpg" group-title="RYANTV MOVIES 2025",Anaconda 
+http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401575730.mp4
+#EXTINF:-1  tvg-logo="http://wtv.la:900/images/qf73jO3I2NkhtgEKo0U2b8znLy8_big.jpg" group-title="RYANTV MOVIES 2025",Kamen Rider 555 20th: Paradise Regained
+http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401287879.mp4
+#EXTINF:-1  tvg-logo="http://wtv.la:900/images/ce5XIH6kydRAuG6itnTa5Kocl4o_big.jpg" group-title="RYANTV MOVIES 2025",Voltes V Legacy: The Movie
+http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401778987.mp4
 
 ################£#££#£################
 
