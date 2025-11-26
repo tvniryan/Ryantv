@@ -18,8 +18,11 @@ http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401778987.mp4
 #EXTINF:1 group-title="RYANTV CHANNELS" tvg-id="convergenceinc/gmanetwork" tvg-logo="https://i.imgur.com/Cu1tAY8.png" provider="Convergence inc" provider-logo="" provider-type="iptv",Gma7
 http://utube.cocker-tk.workers.dev/UCKL5hAuzgFQsyrsQKgU0Qng/master.m3u8
 
-#EXTINF:2 group-title="RYANTV CHANNELS" tvg-id="convergenceinc/gtv" tvg-logo="https://i.imghippo.com/files/JRpn2499bM.jpg" provider="Convergence inc" provider-logo="" provider-type="iptv",GTV
-http://utube.cocker-tk.workers.dev/SzlMfJI46-0/master.m3u8
+#EXTINF:-1 tvg-id="1143" tvg-logo="https://ottepg8.comclark.com:8443/iptvepg/images/markurl/mark_1723126332757.png" group-title="RYANTV CHANNELS",GTV
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://key.nathcreqtives.com/widevine/?deviceId=02:00:00:00:00:00
+https://converse.nathcreqtives.com/1143/manifest.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://cdn.nba.com/manage/2021/02/NBATV-logo-horizontal.jpg" group-title="RYANTV CHANNELS", NBA
 #KODIPROP:inputstreamaddon=inputstream.adaptive
