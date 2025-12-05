@@ -31,6 +31,10 @@ https://cloud.hownetwork.xyz/xxx/MgosKiQNGDNvMxYoL1E4PDFVe353TFoWBxMzABxoCT4kG3B
 
 
 ################£#££#£################
+#EXTINF:-1 group-title="RYANTV CHANNELS",Heart Of Asia
+http://hls.nathcreqtives.com/playlist.m3u8?id=1
+#EXTINF:-1 group-title="RYANTV CHANNELS",I Heart Movies
+http://hls.nathcreqtives.com/playlist.m3u8?id=2
 #EXTINF:-1 tvg-id="1093" tvg-logo="https://ottepg8.comclark.com:8443/iptvepg/images/markurl/mark_1723126306082.png" group-title="RYANTV CHANNELS",GMA7
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
