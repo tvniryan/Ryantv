@@ -4,6 +4,14 @@ M3U playlist
 M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 ####£#£###££######################222
 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWRVdGJL3otxzjqOXB5s7KP3I-VwmglZvnzA&s" group-title=".PH [WebOS]", .GMA 7 II
+https://bisdaktv.fun/stream/nayswan.php?name=gma7*****
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWRVdGJL3otxzjqOXB5s7KP3I-VwmglZvnzA&s" group-title=".PH [WebOS]]", .GTV II
+https://bisdaktv.fun/stream/nayswan.php?name=gma news tv*****
+
+
+########№############################
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://m.media-amazon.com/images/M/MV5BODM1MTNhMjMtMDYxNS00M2ZkLTkwODMtYzEwNzQ1YTFmYzJkXkEyXkFqcGc@._V1_.jpg" group-title="RYANTV MOVIES 2025",The Shadow's Edge (2025)
 https://cloud.hownetwork.xyz/xxx/IA1kKCAXEGw4OQIlbkk_NiVVe353TFoWBxMzABxoCW8gTy19dRxC/37/480.m3u8
 
