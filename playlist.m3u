@@ -3,6 +3,9 @@
 M3U playlist 
 M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 ####£#£###££######################222
+#EXTINF:-1 group-title="RYANTV CHANNELS" tvg-id="" tvg-logo="https://i.imgur.com/ZOqMJfw.png", GMA
+https://gsattv.akamaized.net/live/media0/gma7/Fairplay/gma7.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTVfp5P2XI3hJ1NobeBkpqGTjvmMkW3mVzqw&s" group-title="RYANTV CHANNELS", GMA 7
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
