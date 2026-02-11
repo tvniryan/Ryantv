@@ -4,10 +4,7 @@ M3U playlist
 M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 ####£#£###££######################222
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Heart_of_Asia_logo.svg/500px-Heart_of_Asia_logo.svg.png" group-title="RYANTV CHANNELS", Heart of Asia
-https://m3uiptv.kkt01.workers.dev/stream?t=eyJ1c2VyIjoiYWRtaW4iLCJleHAiOjE3NzAzMTQzNTk0MTksIm0zdSI6Imh0dHBzOi8vY29tYmlicmVhay52ZXJjZWwuYXBwL2NvbWJpbmVkX3BsYXlsaXN0Lm0zdSJ9.8c76db54aad0e670694cebfcccd4e8f4788c73c5e10a13d99cde5c706c6bda3e&url=aHR0cHM6Ly9nbWEueHlhZHgud29ya2Vycy5kZXYvc3RyZWFtL0hPQS5tM3U4
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/26/I_Heart_Movies_2021.png" group-title="RYANTV CHANNELS", I HEART MOVIES
-https://m3uiptv.kkt01.workers.dev/stream?t=eyJ1c2VyIjoiYWRtaW4iLCJleHAiOjE3NzAzMTQzNTk0MTksIm0zdSI6Imh0dHBzOi8vY29tYmlicmVhay52ZXJjZWwuYXBwL2NvbWJpbmVkX3BsYXlsaXN0Lm0zdSJ9.8c76db54aad0e670694cebfcccd4e8f4788c73c5e10a13d99cde5c706c6bda3e&url=aHR0cHM6Ly9nbWEueHlhZHgud29ya2Vycy5kZXYvc3RyZWFtL0lITS5tM3U4
+
 
 
 
