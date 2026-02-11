@@ -465,7 +465,7 @@ https://amg00585-amg00585c10-sportstribal-emea-5519.playouts.now.amagi.tv/playli
 https://live20.bozztv.com/giatv/giatv-animex/animex/playlist.m3u8
 
 #EXTINF:-1 tvg-id="nbaleaguepass5.us" tvg-name="SINE MANILA" tvg-logo="https://i.imghippo.com/files/GvL3752KU.png" group-title="RYANTV CHANNELS",SINE MANILA
-http://93.119.105.61:80/play/live.php?mac=00:1A:79:79:d3:51&stream=440660&extension=ts&play_token=uHEFOq1sEV&sn2=
+https://live20.bozztv.com/giatv/giatv-sinemanila/sinemanila/playlist.m3u8
 
 #EXTINF:-1 tvg-id="GMATV.ph" tvg-name="AsianBox" tvg-logo="https://i.imghippo.com/files/AUzN6933aG.jpg" group-title="RYANTV CHANNELS",AsianBox
 https://cdn4.skygo.mn/live/disk1/AsianBOX/HLSv3-FTA/AsianBOX.m3u8
