@@ -911,11 +911,12 @@ https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/bbcworld_news_sd/default/i
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/bloomberg_sd/default/index.mpd
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ACCD6-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="64" group-title="RYANTV CHANNELS", ABC Australia
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/kVVax44.png" group-title="RYANTV CHANNELS", ABC Australia
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=389497f9f8584a57b234e27e430e04b7:3b85594c7f88604adf004e45c03511c0
+#KODIPROP:inputstream.adaptive.license_key=d6f1a8c29b7e4d5a8f332c1e9d7b6a90:790bd17b9e623e832003a993a2de1d87
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/abc_aus/default/index.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A7448-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="65" group-title="RYANTV CHANNELS", CCTV-4
@@ -939,18 +940,18 @@ https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/france24/default/index.mpd
 #KODIPROP:inputstream.adaptive.license_key=fba5a720b4a541b286552899ba86e38b:f63fa50423148bfcbaa58c91dfcffd0e
 https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_tv5_monde/default/index.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/C6AB65CE-37A0-4040-ABA7-021C669DBEE1/0-16x9.jpg?width=1980" channel-number="68" group-title="RYANTV CHANNELS", Lotus Macau
+#EXTINF:-1 tvg-logo="https://cms.cignal.tv/Upload/Thumbnails/mo-macau-lotus-tv-3757.png" group-title="RYANTV CHANNELS", Lotus Macau
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=60dc692e64ea443a8fb5ac186c865a9b:01bdbe22d59b2a4504b53adc2f606cc1
+#KODIPROP:inputstream.adaptive.license_key=9a7c2d1f4e8b4a6d8f301b5c9e7d2a44:ca88469cabc18aa33d1f2e46a6efb4f7
 https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/lotusmacau_prd/default/index.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A7EE8-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="69" group-title="RYANTV CHANNELS", KIX HD
+#EXTINF:-1 tvg-id="KIX.ph" tvg-logo="https://i.imgur.com/B8Fmzer.png" group-title="RYANTV CHANNELS",KIX hd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=a8d5712967cd495ca80fdc425bc61d6b:f248c29525ed4c40cc39baeee9634735
+#KODIPROP:inputstream.adaptive.license_key=c9d4b7a18e2f4d6c9a103f5b7e1c2d88:7f3139092bf87d8aa51ee40e6294d376
 https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/kix_hd1/default/index.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/C0B38DBD-BE4F-4044-9D85-D827D8DC64C4/0-16x9.jpg?width=1980" channel-number="70" group-title="RYANTV CHANNELS", tvUP
