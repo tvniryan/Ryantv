@@ -320,12 +320,13 @@ https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-a
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Linux; Android 13; UltraBox Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/136.0.7103.61 Mobile Safari/537.36
 https://linearjitp-playback.astro.com.my/dash-wv/linear/5106/default_ott.mpd
 
-#EXTINF:-1 tvg-id="hgtv-hd" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/198_144.png" group-title="RYANTV CHANNELS",HGTV
+#EXTINF:-1 group-title="RYANTV CHANNELS" tvg-id="" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/198_144.png" ,HGTV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f0e3ab943318471abc8b47027f384f5a:13802a79b19cc3485d2257165a7ef62a
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/hgtv_hd1/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"KmlbBG589YEaY00TSEQRlQ", "kid":"jBuzCZVe7jKII5Cr6+GYEA" } ], "type":"temporary" }
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Linux; Android 13; UltraBox Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/136.0.7103.61 Mobile Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/2502/default_ott.mpd
 
 #EXTINF:-1 tvg-id="crime-investigation" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/369_144.png" group-title="RYANTV CHANNELS",Crime & Investigation
 #KODIPROP:inputstreamaddon=inputstream.adaptive
