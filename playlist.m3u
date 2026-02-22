@@ -4,6 +4,11 @@ M3U playlist
 M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 ####£#£###££######################222
 
+#EXTINF:-1 tvg-id="RYANTV-Channel" tvg-name="RYANTV Premium" tvg-logo="https://i.imghippo.com/files/zVXw8944ew.webp" group-title="RYANTV CHANNELS",PPV RYAN GARCIA VS MARIO BARRIOS
+https://601.lifesharper.com/ppv.m3u8
+
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/EPR8oKZ.png" codec="auto" ch-number="" group-title="RYANTV CHANNELS",Cartoon Channel PH
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
