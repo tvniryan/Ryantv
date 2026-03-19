@@ -4,6 +4,9 @@ M3U playlist
 M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 ####£#£###££######################222
 
+#EXTINF:-1 tvg-id="" tvg-name="Nuremberg.2025" tvg-logo="https://i.imghippo.com/files/ZRNx9791cw.jpg" group-title="RYANTV CHANNELS",Tapsilog
+https://tapsilog.honor-tv.42web.io/live/index.m3u8
+
 #EXTINF:-1 type="movie" group-title="RYANTV MOVIES 2026" tvg-id="tt6341826" tvg-imdb="tt6341826" tvg-tmdb="1032892" tvg-logo="https://image.tmdb.org/t/p/w500/4vWqIdoBavo1htxmxlScDniOS9C.jpg",In the Blink of an Eye (2026)
 #EXTVLCOPT:http-origin=https://amirahtv.art
 #EXTVLCOPT:http-referrer=https://amirahtv.art/
