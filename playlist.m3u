@@ -3,9 +3,8 @@
 M3U playlist 
 M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 ####£#£###££######################222
-
-#EXTINF:-1 tvg-logo="https://tapdmv.com/content/images/2025/10/225-1.webp" group-title="RYANTV CHANNELS", TAPSILOG
-rtmp://210.4.112.99:1935/tapdmv/TVN_movies
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/Y8TaHlk.png" ch-number="" group-title="RYANTV CHANNELS",TAP Silog
+http://tvnijuan.net:25461/live/rictms/rictms/1392.m3u8
 
 #EXTINF:-1 type="movie" group-title="RYANTV MOVIES 2026" tvg-id="tt6341826" tvg-imdb="tt6341826" tvg-tmdb="1032892" tvg-logo="https://image.tmdb.org/t/p/w500/4vWqIdoBavo1htxmxlScDniOS9C.jpg",In the Blink of an Eye (2026)
 #EXTVLCOPT:http-origin=https://amirahtv.art
