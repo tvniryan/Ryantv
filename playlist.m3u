@@ -3,7 +3,540 @@
 M3U playlist 
 M3U billed-msg="M3U PLAYLIST BY: RYANTV"
 ####£#£###££######################222
+#EXTINF:-1 group-logo="https://i.imgur.com/TlyoGcW.png" tvg-logo="" group-title="TVPass HD"
 
+#EXTINF:-1 tvg-id="A.and.E.HD.East.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/a-and-e-us.png" ch-number="1300" group-title="TVPass HD",A&E
+https://tvpass.org/live/AEEast/hd
+
+#EXTINF:-1 tvg-id="BBC.America.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bbc-america-us.png" ch-number="1301" group-title="TVPass HD",BBC America
+https://tvpass.org/live/BBCAmericaEast/hd
+
+#EXTINF:-1 tvg-id="BET.HD.us2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/BET-2021Logo.svg/250px-BET-2021Logo.svg.png" ch-number="1302" group-title="TVPass HD",BET Eastern
+https://tvpass.org/live/BETEast/hd
+
+#EXTINF:-1 tvg-id="BET.Her.us2" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/ba/BET_Her_2021.png" ch-number="1303" group-title="TVPass HD",BET Her HD
+https://tvpass.org/live/BETHerEast/hd
+
+#EXTINF:-1 tvg-id="Bravo.HD.us2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Bravo_2024.svg/2560px-Bravo_2024.svg.png" ch-number="1304" group-title="TVPass HD",Bravo USA HD
+https://tvpass.org/live/BravoEast/hd
+
+#EXTINF:-1 tvg-id="CMT.HD.us2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/CMT_2017_logo.svg/2560px-CMT_2017_logo.svg.png" ch-number="1305" group-title="TVPass HD",CMT US Eastern Feed HD
+https://tvpass.org/live/CMTEast/hd
+
+#EXTINF:-1 tvg-id="Comedy.Central.HD.us2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/1024px-Comedy_Central_2018.svg.png" ch-number="1306" group-title="TVPass HD",Comedy Central (US) Eastern Feed HD
+https://tvpass.org/live/ComedyCentralEast/hd
+
+#EXTINF:-1 tvg-id="E!.Entertainment.Television.HD.us2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/E%21_Logo.svg/250px-E%21_Logo.svg.png" ch-number="1307" group-title="TVPass HD",E! Entertainment USA Eastern Feed HD
+https://tvpass.org/live/EEast/hd
+
+#EXTINF:-1 tvg-id="Freeform.HD.us2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Freeform_2022.svg/1024px-Freeform_2022.svg.png" ch-number="1308" group-title="TVPass HD",Freeform East Feed HD
+https://tvpass.org/live/FreeformEast/hd
+
+#EXTINF:-1 tvg-id="FX.Networks.East.Coast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/1024px-FX_International_logo.svg.png" ch-number="1309" group-title="TVPass HD",FX Networks East Coast HD
+https://tvpass.org/live/FXEast/hd
+
+#EXTINF:-1 tvg-id="FXX.USA.-.Eastern.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/FXX_Logo.svg/1200px-FXX_Logo.svg.png" ch-number="1310" group-title="TVPass HD",FXX USA Eastern HD
+https://tvpass.org/live/FXXEast/hd
+
+#EXTINF:-1 tvg-id="Game.Show.Network.-.East.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Game_Show_Network_2018.svg/960px-Game_Show_Network_2018.svg.png" ch-number="1311" group-title="TVPass HD",Game Show Network East HD
+https://tvpass.org/live/game-show-network-east/hd
+
+#EXTINF:-1 tvg-id="ION..-.Eastern.Feed.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ion_logo.svg/800px-Ion_logo.svg.png" ch-number="1312" group-title="TVPass HD",ION Eastern Feed HD
+https://tvpass.org/live/IONTVEast/hd
+
+#EXTINF:-1 tvg-id="Lifetime.Network.US.-.Eastern.Feed.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/800px-Logo_Lifetime_2020.svg.png" ch-number="1313" group-title="TVPass HD",Lifetime Network US Eastern Feed HD
+https://tvpass.org/live/LifetimeEast/hd
+
+#EXTINF:-1 tvg-id="LOGO.-.East.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Logo_TV_2015.svg/745px-Logo_TV_2015.svg.png" ch-number="1314" group-title="TVPass HD",LOGO East HD
+https://tvpass.org/live/LogoEast/hd
+
+#EXTINF:-1 tvg-id="Oxygen.-.Eastern.Feed.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Oxygen_TV_%282017_Logo%29.svg/1024px-Oxygen_TV_%282017_Logo%29.svg.png" ch-number="1315" group-title="TVPass HD",Oxygen Eastern Feed HD
+https://tvpass.org/live/OxygenEast/hd
+
+#EXTINF:-1 tvg-id="Syfy.-.Eastern.Feed.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SYFY.svg/800px-SYFY.svg.png" ch-number="1316" group-title="TVPass HD",Syfy Eastern Feed HD
+https://tvpass.org/live/SyfyEast/hd
+
+#EXTINF:-1 tvg-id="TBS.-.East.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/TBS_2020.svg/800px-TBS_2020.svg.png" ch-number="1317" group-title="TVPass HD",TBS East HD
+https://tvpass.org/live/TBSEast/hd
+
+#EXTINF:-1 tvg-id="TNT.-.Eastern.Feed.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/TNT_%28TV_Channel%29.svg/1200px-TNT_%28TV_Channel%29.svg.png" ch-number="1318" group-title="TVPass HD",TNT Eastern Feed HD
+https://tvpass.org/live/TNTEast/hd
+
+#EXTINF:-1 tvg-id="truTV.USA.-.Eastern.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TruTV_2014.svg/2560px-TruTV_2014.svg.png" ch-number="1319" group-title="TVPass HD",truTV USA Eastern HD
+https://tvpass.org/live/truTVEast/hd
+
+#EXTINF:-1 tvg-id="TV.Land.-.Eastern.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/TV_Land_2015_logo.svg/800px-TV_Land_2015_logo.svg.png" ch-number="1320" group-title="TVPass HD",TV Land Eastern HD
+https://tvpass.org/live/tv-land-eastern/hd
+
+#EXTINF:-1 tvg-id="TV.One.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/TV-One-logo-2016.png/640px-TV-One-logo-2016.png" ch-number="1321" group-title="TVPass HD",TV One HD
+https://tvpass.org/live/TVOne/hd
+
+#EXTINF:-1 tvg-id="USA.Network.-.East.Feed.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/800px-USA_Network_logo_%282016%29.svg.png" ch-number="1322" group-title="TVPass HD",USA Network East Feed HD
+https://tvpass.org/live/USANetworkEast/hd
+
+#EXTINF:-1 tvg-id="WE.(Women&apos;s.Entertainment).-.Eastern.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_WeTV_fullscreen.png" ch-number="1323" group-title="TVPass HD",WE (Women's Entertainment) Eastern HD
+https://tvpass.org/live/WeTVEast/hd
+
+#EXTINF:-1 tvg-id="ABC.(KABC).Los.Angeles,.CA.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/KGO-TV_and_KABC-TV_ABC_7_%282021_flat_version%29.svg/1001px-KGO-TV_and_KABC-TV_ABC_7_%282021_flat_version%29.svg.png" ch-number="1324" group-title="TVPass HD",ABC (KABC)
+https://tvpass.org/live/abc-kabc-los-angeles-ca/hd
+
+#EXTINF:-1 tvg-id="ABC.(WABC).New.York,.NY.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/WABC_TV_New_2021.svg/1024px-WABC_TV_New_2021.svg.png" ch-number="1325" group-title="TVPass HD",ABC (WABC)
+https://tvpass.org/live/WABCDT1/hd
+
+#EXTINF:-1 tvg-id="CBS.(KCBS).Los.Angeles,.CA.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/CBS_Los_Angeles_logo.svg/1280px-CBS_Los_Angeles_logo.svg.png" ch-number="1326" group-title="TVPass HD",CBS (KCBS)
+https://tvpass.org/live/cbs-kcbs-los-angeles-ca/hd
+
+#EXTINF:-1 tvg-id="CBS.(WCBS).New.York,.NY.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/WCBS-TV_logo_%282023%29.svg/1024px-WCBS-TV_logo_%282023%29.svg.png" ch-number="1327" group-title="TVPass HD",CBS (WCBS)
+https://tvpass.org/live/WCBSDT1/hd
+
+#EXTINF:-1 tvg-id="CW.(KFMB-TV2).San.Diego,.CA.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/KFMB-DT2_2024.svg/1024px-KFMB-DT2_2024.svg.png" ch-number="1328" group-title="TVPass HD",CW (KFMB-TV2)
+https://tvpass.org/live/cw-kfmbtv2-san-diego-ca/hd
+
+#EXTINF:-1 tvg-id="CW.(WDCW).District.of.Columbia.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/WDCW_CW_2024.svg/1024px-WDCW_CW_2024.svg.png" ch-number="1329" group-title="TVPass HD",CW (WDCW)
+https://tvpass.org/live/cw-wdcw-district-of-columbia/hd
+
+#EXTINF:-1 tvg-id="FOX.(KTTV).Los.Angeles,.CA.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Fts-los-angeles-a.svg/2560px-Fts-los-angeles-a.svg.png" ch-number="1330" group-title="TVPass HD",FOX (KTTV)
+https://tvpass.org/live/fox-kttv-los-angeles-ca/hd
+
+#EXTINF:-1 tvg-id="FOX.(WNYW).New.York,.NY.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Fts-new-york-a.svg/1024px-Fts-new-york-a.svg.png" ch-number="1331" group-title="TVPass HD",FOX (WNYW)
+https://tvpass.org/live/WNYWDT1/hd
+
+#EXTINF:-1 tvg-id="MeTV.WJLP.New.York,.NY.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/MeTV_New_Jersey_New_York.svg/1024px-MeTV_New_Jersey_New_York.svg.png" ch-number="1332" group-title="TVPass HD",MeTV WJLP
+https://tvpass.org/live/metv-wjlp-new-jerseynew-york/hd
+
+#EXTINF:-1 tvg-id="NBC.(KNBC).Los.Angeles,.CA.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/KNBC_2023.svg/1024px-KNBC_2023.svg.png" ch-number="1333" group-title="TVPass HD",NBC (KNBC)
+https://tvpass.org/live/nbc-knbc-los-angeles-ca/hd
+
+#EXTINF:-1 tvg-id="NBC.(WNBC).New.York,.NY.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/WNBC_2023.svg/1280px-WNBC_2023.svg.png" ch-number="1334" group-title="TVPass HD",NBC (WNBC)
+https://tvpass.org/live/WNBCDT1/hd
+
+#EXTINF:-1 tvg-id="PBS.(WNET).New.York,.NY.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/WNET_Thirteen_2022_logo.svg/1024px-WNET_Thirteen_2022_logo.svg.png" ch-number="1335" group-title="TVPass HD",PBS (WNET)
+https://tvpass.org/live/WNET/hd
+
+#EXTINF:-1 tvg-id="Telemundo..-.Eastern.Feed.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/960px-Telemundo_logo_2018.svg.png" ch-number="1336" group-title="TVPass HD",Telemundo Eastern Feed HD
+https://tvpass.org/live/TelemundoEast/hd
+
+#EXTINF:-1 tvg-id="Univision.-.Eastern.Feed.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/330px-Logo_Univision_2019.svg.png" ch-number="1337" group-title="TVPass HD",Univision Eastern Feed HD
+https://tvpass.org/live/UnivisionEast/hd
+
+#EXTINF:-1 tvg-id="WPIX.New.York.(SUPERSTATION).us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/WPIX11_CW_2024.svg/330px-WPIX11_CW_2024.svg.png" ch-number="1338" group-title="TVPass HD",WPIX New York (SUPERSTATION)
+https://tvpass.org/live/WPIX/hd
+
+#EXTINF:-1 tvg-id="ACC.Network.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ACC_Network_ESPN_logo.svg/330px-ACC_Network_ESPN_logo.svg.png" ch-number="1339" group-title="TVPass HD",ACC Network HD
+https://tvpass.org/live/ACCNetwork/hd
+
+#EXTINF:-1 tvg-id="Altitude.Sports.-.Denver.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Altitude_Sports_logo.svg/320px-Altitude_Sports_logo.svg.png" ch-number="1340" group-title="TVPass HD",Altitude Sports Denver HD
+https://tvpass.org/live/altitude-sports-denver/hd
+
+#EXTINF:-1 tvg-id="Big.Ten.Network.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Big_Ten_Network_Logo.svg/408px-Big_Ten_Network_Logo.svg.png" ch-number="1341" group-title="TVPass HD",Big Ten Network HD
+https://tvpass.org/live/BTN/hd
+
+#EXTINF:-1 tvg-id="CBS.Sports.Network.USA.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/CBS_Sports_Network_2021.svg/330px-CBS_Sports_Network_2021.svg.png" ch-number="1342" group-title="TVPass HD",CBS Sports Network USA HD
+https://tvpass.org/live/CBSSportsNetworkUSA/hd
+
+#EXTINF:-1 tvg-id="Chicago.Sports.Network.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/68/Chicago_Sports_Network_Logo.png" ch-number="1343" group-title="TVPass HD",Chicago Sports Network HD
+https://tvpass.org/live/chicago-sports-network/hd
+
+#EXTINF:-1 tvg-id="ESPN.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/330px-ESPN_wordmark.svg.png" ch-number="1344" group-title="TVPass HD",ESPN HD
+https://tvpass.org/live/ESPN/hd
+
+#EXTINF:-1 tvg-id="ESPN.Deportes.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/ESPN_Deportes.svg/320px-ESPN_Deportes.svg.png" ch-number="1345" group-title="TVPass HD",ESPN Deportes HD
+https://tvpass.org/live/espn-deportes/hd
+
+#EXTINF:-1 tvg-id="ESPN.News.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/330px-ESPNews.svg.png" ch-number="1346" group-title="TVPass HD",ESPN News HD
+https://tvpass.org/live/ESPNews/hd
+
+#EXTINF:-1 tvg-id="ESPN.U.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ESPN_U_logo.svg/250px-ESPN_U_logo.svg.png" ch-number="1347" group-title="TVPass HD",ESPN U HD
+https://tvpass.org/live/ESPNU/hd
+
+#EXTINF:-1 tvg-id="ESPN2.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/330px-ESPN2_logo.svg.png" ch-number="1348" group-title="TVPass HD",ESPN2 HD
+https://tvpass.org/live/ESPN2/hd
+
+#EXTINF:-1 tvg-id="fanduel-sports-network-great-lakes" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN8_The_Ocho_ESPN_Organization_Logo.svg/330px-ESPN8_The_Ocho_ESPN_Organization_Logo.svg.png" ch-number="1349" group-title="TVPass HD",ESPN 8
+https://tvpass.org/live/fanduel-sports-network-great-lakes/hd
+
+#EXTINF:-1 tvg-id="fanduel-sports-indiana" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" ch-number="1350" group-title="TVPass HD",Fanduel Sports Indiana HD
+https://tvpass.org/live/fanduel-sports-indiana/hd
+
+#EXTINF:-1 tvg-id="fanduel-sports-network-detroit-hd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" ch-number="1351" group-title="TVPass HD",Fanduel Sports Network Detroit HD
+https://tvpass.org/live/fanduel-sports-network-detroit-hd/hd
+
+#EXTINF:-1 tvg-id="fanduel-sports-network-florida" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" ch-number="1352" group-title="TVPass HD",Fanduel Sports Network Florida HD
+https://tvpass.org/live/fanduel-sports-network-florida/hd
+
+
+#EXTINF:-1 tvg-id="fanduel-sports-network-north" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" ch-number="1353" group-title="TVPass HD",Fanduel Sports Network North HD
+https://tvpass.org/live/fanduel-sports-network-north/hd
+
+#EXTINF:-1 tvg-id="fanduel-sports-network-ohio-cleveland" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" ch-number="1354" group-title="TVPass HD",Fanduel Sports Network Ohio Cleveland HD
+https://tvpass.org/live/fanduel-sports-network-ohio-cleveland/hd
+
+#EXTINF:-1 tvg-id="fanduel-sports-network-oklahoma" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" ch-number="1355" group-title="TVPass HD",Fanduel Sports Network Oklahoma HD
+https://tvpass.org/live/fanduel-sports-network-oklahoma/hd
+
+#EXTINF:-1 tvg-id="fanduel-sports-network-socal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" ch-number="1356" group-title="TVPass HD",Fanduel Sports Network Socal HD
+https://tvpass.org/live/fanduel-sports-network-socal/hd
+
+#EXTINF:-1 tvg-id="fanduel-sports-network-south-carolinas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" ch-number="1357" group-title="TVPass HD",Fanduel Sports Network South Carolinas HD
+https://tvpass.org/live/fanduel-sports-network-south-carolinas/hd
+
+#EXTINF:-1 tvg-id="fanduel-sports-network-south-tennessee-usa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" ch-number="1358" group-title="TVPass HD",Fanduel Sports Network South Tennessee HD
+https://tvpass.org/live/fanduel-sports-network-south-tennessee-usa/hd
+
+#EXTINF:-1 tvg-id="fanduel-sports-network-west" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" ch-number="1359" group-title="TVPass HD",Fanduel Sports Network West HD
+https://tvpass.org/live/fanduel-sports-network-west/hd
+
+#EXTINF:-1 tvg-id="fanduel-sports-network-wisconsin" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" ch-number="1360" group-title="TVPass HD",Fanduel Sports Network Wisconsin HD
+https://tvpass.org/live/fanduel-sports-network-wisconsin/hd
+
+#EXTINF:-1 tvg-id="fanduel-sports-southeast-georgia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" ch-number="1361" group-title="TVPass HD",Fanduel Sports Southeast Georgia HD
+https://tvpass.org/live/fanduel-sports-southeast-georgia/hd
+
+#EXTINF:-1 tvg-id="fanduel-sports-southeast-north-carolina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" ch-number="1362" group-title="TVPass HD",Fanduel Sports Southeast North Carolina HD
+https://tvpass.org/live/fanduel-sports-southeast-north-carolina/hd
+
+#EXTINF:-1 tvg-id="fanduel-sports-southeast-south-carolina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" ch-number="1363" group-title="TVPass HD",Fanduel Sports Southeast South Carolina HD
+https://tvpass.org/live/fanduel-sports-southeast-south-carolina/hd
+
+#EXTINF:-1 tvg-id="fanduel-sports-southeast-tennessee-nashville" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" ch-number="1364" group-title="TVPass HD",Fanduel Sports Southeast Tennessee Nashville HD
+https://tvpass.org/live/fanduel-sports-southeast-tennessee-nashville/hd
+
+#EXTINF:-1 tvg-id="bally-sports-sun" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" ch-number="1365" group-title="TVPass HD",Fanduel Sports Sun HD
+https://tvpass.org/live/fanduel-sports-sun/hd
+
+#EXTINF:-1 tvg-id="fanduel-sports-tennessee-east" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" ch-number="1366" group-title="TVPass HD",Fanduel Sports Tennessee East HD
+https://tvpass.org/live/fanduel-sports-tennessee-east/hd
+
+#EXTINF:-1 tvg-id="fox-sports-1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2015_Fox_Sports_1_logo.svg/320px-2015_Fox_Sports_1_logo.svg.png" ch-number="1367" group-title="TVPass HD",Fox Sports 1 HD
+https://tvpass.org/live/FoxSports1/hd
+
+#EXTINF:-1 tvg-id="fox-sports-2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/FS2_logo_2015.svg/320px-FS2_logo_2015.svg.png" ch-number="1368" group-title="TVPass HD",Fox Sports 2 HD
+https://tvpass.org/live/FoxSports2/hd
+
+#EXTINF:-1 tvg-id="golf-channel-usa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Golf_Channel_Logo.png/330px-Golf_Channel_Logo.png" ch-number="1369" group-title="TVPass HD",Golf Channel USA HD
+https://tvpass.org/live/GolfChannel/hd
+
+#EXTINF:-1 tvg-id="marquee-sports-network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Marquee_Sports_Network_Logo.svg/512px-Marquee_Sports_Network_Logo.svg.png" ch-number="1370" group-title="TVPass HD",Marquee Sports Network HD
+https://tvpass.org/live/marquee-sports-network/hd
+
+#EXTINF:-1 tvg-id="midatlantic-sports-network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e5/MASN-Logo.png" ch-number="1371" group-title="TVPass HD",Midatlantic Sports Network HD
+https://tvpass.org/live/midatlantic-sports-network/hd
+
+#EXTINF:-1 tvg-id="mlb-network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/MLBNetworkLogo.svg/250px-MLBNetworkLogo.svg.png" ch-number="1372" group-title="TVPass HD",MLB Network HD
+https://tvpass.org/live/MLBNetwork/hd
+
+#EXTINF:-1 tvg-id="monumental-sports-network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e1/Monumental_Sports_Network_Logo.png" ch-number="1373" group-title="TVPass HD",Monumental Sports Network HD
+https://tvpass.org/live/monumental-sports-network/hd
+
+#EXTINF:-1 tvg-id="msg-madison-square-gardens" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/59/MSG_Network_logo.png" ch-number="1374" group-title="TVPass HD",MSG Madison Square Gardens HD
+https://tvpass.org/live/msg-madison-square-gardens/hd
+
+#EXTINF:-1 tvg-id="msg-plus" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Msg-sportsnet.png/330px-Msg-sportsnet.png" ch-number="1375" group-title="TVPass HD",MSG Sportsnet HD
+https://tvpass.org/live/msg-plus/hd
+
+#EXTINF:-1 tvg-id="nba-tv-usa" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/250px-NBA_TV.svg.png" ch-number="1376" group-title="TVPass HD",NBA TV USA HD
+https://tvpass.org/live/NBATV/hd
+
+#EXTINF:-1 tvg-id="nbc-sports-bay-area" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/NBC_Sports_Bay_Area_2023.svg/330px-NBC_Sports_Bay_Area_2023.svg.png" ch-number="1377" group-title="TVPass HD",NBC Sports Bay Area HD
+https://tvpass.org/live/nbc-sports-bay-area/hd
+
+#EXTINF:-1 tvg-id="nbc-sports-boston" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/NBC_Sports_Boston_2023.svg/330px-NBC_Sports_Boston_2023.svg.png" ch-number="1378" group-title="TVPass HD",NBC Sports Boston HD
+https://tvpass.org/live/nbc-sports-boston/hd
+
+#EXTINF:-1 tvg-id="nbc-sports-california" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/NBC_Sports_California_2023.svg/330px-NBC_Sports_California_2023.svg.png" ch-number="1379" group-title="TVPass HD",NBC Sports California HD
+https://tvpass.org/live/nbc-sports-california/hd
+
+#EXTINF:-1 tvg-id="nbc-sports-philadelphia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/NBC_Sports_Philadelphia_2023.svg/330px-NBC_Sports_Philadelphia_2023.svg.png" ch-number="1380" group-title="TVPass HD",NBC Sports Philadelphia HD
+https://tvpass.org/live/nbc-sports-philadelphia/hd
+
+#EXTINF:-1 tvg-id="new-england-sports-network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/02/NESN_logo_2019.png" ch-number="1381" group-title="TVPass HD",New England Sports Network HD
+https://tvpass.org/live/new-england-sports-network/hd
+
+#EXTINF:-1 tvg-id="nfl-network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/330px-NFL_Network_logo.svg.png" ch-number="1382" group-title="TVPass HD",NFL Network HD
+https://tvpass.org/live/NFLNetwork/hd
+
+#EXTINF:-1 tvg-id="nfl-redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7b/NFL_Network_Redzone.png" ch-number="1383" group-title="TVPass HD",NFL RedZone HD
+https://tvpass.org/live/NFLRedZone/hd
+
+#EXTINF:-1 tvg-id="nhl-network-usa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/NHL_Network_2012.svg/1280px-NHL_Network_2012.svg.png" ch-number="1384" group-title="TVPass HD",NHL Network USA HD
+https://tvpass.org/live/NHLNetwork/hd
+
+#EXTINF:-1 tvg-id="sec-network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/SEC_Network_%282024%29.svg/330px-SEC_Network_%282024%29.svg.png" ch-number="1385" group-title="TVPass HD",SEC Network HD
+https://tvpass.org/live/SECN/hd
+
+#EXTINF:-1 tvg-id="sny-sportsnet-new-york-comcast" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/SNY_logo.svg/330px-SNY_logo.svg.png" ch-number="1386" group-title="TVPass HD",SNY Sportsnet New York Comcast HD
+https://tvpass.org/live/sny-sportsnet-new-york-comcast/hd
+
+#EXTINF:-1 tvg-id="space-city-home-network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ad/Space_City_Home_Network_Logo.png" ch-number="1387" group-title="TVPass HD",Space City Home Network HD
+https://tvpass.org/live/space-city-home-network/hd
+
+#EXTINF:-1 tvg-id="spectrum-sportsnet-la" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Spectrum_Sportsnet_LA.svg/330px-Spectrum_Sportsnet_LA.svg.png" ch-number="1388" group-title="TVPass HD",Spectrum SportsNet LA HD
+https://tvpass.org/live/spectrum-sportsnet-la/hd
+
+#EXTINF:-1 tvg-id="spectrum-sportsnet" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Spectrum_Sportsnet_logo.svg/330px-Spectrum_Sportsnet_logo.svg.png" ch-number="1389" group-title="TVPass HD",Spectrum Sportsnet Lakers HD
+https://tvpass.org/live/spectrum-sportsnet/hd
+
+#EXTINF:-1 tvg-id="sportsnet-east" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Logo_Sportsnet_2011.svg/330px-Logo_Sportsnet_2011.svg.png" ch-number="1390" group-title="TVPass HD",Sportsnet (East) HD
+https://tvpass.org/live/sportsnet-east/hd
+
+#EXTINF:-1 tvg-id="sportsnet-360" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/SN_360_logo.svg/330px-SN_360_logo.svg.png" ch-number="1391" group-title="TVPass HD",Sportsnet 360 HD
+https://tvpass.org/live/sportsnet-360/hd
+
+#EXTINF:-1 tvg-id="sportsnet-one" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Sportsnetone2011.svg/330px-Sportsnetone2011.svg.png" ch-number="1392" group-title="TVPass HD",Sportsnet One HD
+https://tvpass.org/live/sportsnet-one/hd
+
+#EXTINF:-1 tvg-id="sportsnet-ontario" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Sportsnetone2011.svg/330px-Sportsnetone2011.svg.png" ch-number="1393" group-title="TVPass HD",Sportsnet Ontario HD
+https://tvpass.org/live/sportsnet-ontario/hd
+
+#EXTINF:-1 tvg-id="sportsnet-pacific" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Sportsnetone2011.svg/330px-Sportsnetone2011.svg.png" ch-number="1394" group-title="TVPass HD",Sportsnet Pacific HD
+https://tvpass.org/live/sportsnet-pacific/hd
+
+#EXTINF:-1 tvg-id="sportsnet-pittsburgh" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Sportsnetone2011.svg/330px-Sportsnetone2011.svg.png" ch-number="1395" group-title="TVPass HD",Sportsnet Pittsburgh HD
+https://tvpass.org/live/sportsnet-pittsburgh/hd
+
+#EXTINF:-1 tvg-id="sportsnet-west" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Sportsnetone2011.svg/330px-Sportsnetone2011.svg.png" ch-number="1396" group-title="TVPass HD",Sportsnet West HD
+https://tvpass.org/live/sportsnet-west/hd
+
+#EXTINF:-1 tvg-id="the-tennis-channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Tennis_Channel_logo.svg/183px-Tennis_Channel_logo.svg.png" ch-number="1397" group-title="TVPass HD",The Tennis Channel HD
+https://tvpass.org/live/TennisChannel/hd
+
+#EXTINF:-1 tvg-id="tsn1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/TSN1.svg/320px-TSN1.svg.png" ch-number="1398" group-title="TVPass HD",TSN1 HD
+https://tvpass.org/live/tsn1/hd
+
+#EXTINF:-1 tvg-id="tsn2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/TSN2.svg/320px-TSN2.svg.png" ch-number="1399" group-title="TVPass HD",TSN2 HD
+https://tvpass.org/live/tsn2/hd
+
+#EXTINF:-1 tvg-id="tsn3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/TSN3.svg/320px-TSN3.svg.png" ch-number="1400" group-title="TVPass HD",TSN3 HD
+https://tvpass.org/live/tsn3/hd
+
+#EXTINF:-1 tvg-id="tsn4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/TSN4.svg/320px-TSN4.svg.png" ch-number="1401" group-title="TVPass HD",TSN4 HD
+https://tvpass.org/live/tsn4/hd
+
+#EXTINF:-1 tvg-id="tsn5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/TSN5.svg/320px-TSN5.svg.png" ch-number="1402" group-title="TVPass HD",TSN5 HD
+https://tvpass.org/live/tsn5/hd
+
+#EXTINF:-1 tvg-id="yes-network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/YES_Network_logo.svg/330px-YES_Network_logo.svg.png" ch-number="1403" group-title="TVPass HD",Yes Network HD
+https://tvpass.org/live/yes-network/hd
+
+#EXTINF:-1 tvg-id="amc-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/330px-AMC_logo_2019.svg.png" ch-number="1404" group-title="TVPass HD",AMC Eastern Feed HD
+https://tvpass.org/live/AMCEast/hd
+
+#EXTINF:-1 tvg-id="cinemax-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/330px-Cinemax_2016.svg.png" ch-number="1405" group-title="TVPass HD",Cinemax Eastern Feed HD
+https://tvpass.org/live/CinemaxEast/hd
+
+#EXTINF:-1 tvg-id="fx-movie-channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/FX_Movies_logo.svg/320px-FX_Movies_logo.svg.png" ch-number="1406" group-title="TVPass HD",FX Movie Channel HD
+https://tvpass.org/live/FXMovieChannel/hd
+
+#EXTINF:-1 tvg-id="hallmark-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Hallmark_Channel_2022_logo.svg/330px-Hallmark_Channel_2022_logo.svg.png" ch-number="1407" group-title="TVPass HD",Hallmark Eastern Feed HD
+https://tvpass.org/live/HallmarkChannelEast/hd
+
+#EXTINF:-1 tvg-id="hallmark-family-hd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Hallmark_Family_2024.svg/330px-Hallmark_Family_2024.svg.png" ch-number="1408" group-title="TVPass HD",Hallmark Family HD HD
+https://tvpass.org/live/HallmarkDrama/hd
+
+#EXTINF:-1 tvg-id="hallmark-mystery-eastern-hd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Hallmark_Mystery_2024.svg/330px-Hallmark_Mystery_2024.svg.png" ch-number="1409" group-title="TVPass HD",Hallmark Mystery Eastern HD HD
+https://tvpass.org/live/HallmarkMoviesMysteriesEast/hd
+
+#EXTINF:-1 tvg-id="hbo-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/330px-HBO_logo.svg.png" ch-number="1410" group-title="TVPass HD",HBO Eastern Feed HD
+https://tvpass.org/live/HBOEast/hd
+
+#EXTINF:-1 tvg-id="hbo-2-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9e/HBO_2_Logo_Poland.png" ch-number="1411" group-title="TVPass HD",HBO 2 Eastern Feed HD
+https://tvpass.org/live/HBO2East/hd
+
+#EXTINF:-1 tvg-id="hbo-comedy-hd-east" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/HBO_Comedy_2000.svg/330px-HBO_Comedy_2000.svg.png" ch-number="1412" group-title="TVPass HD",HBO Comedy HD East HD
+https://tvpass.org/live/HBOComedyEast/hd
+
+#EXTINF:-1 tvg-id="hbo-family-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/HBO_Family_Asia_logo.svg/330px-HBO_Family_Asia_logo.svg.png" ch-number="1413" group-title="TVPass HD",HBO Family Eastern Feed HD
+https://tvpass.org/live/HBOFamilyEast/hd
+
+#EXTINF:-1 tvg-id="hbo-signature-hbo-3-eastern" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/HBO_Signature_Asia.png" ch-number="1414" group-title="TVPass HD",HBO Signature (HBO 3) Eastern HD
+https://tvpass.org/live/HBOSignatureEast/hd
+
+#EXTINF:-1 tvg-id="hbo-zone-hd-east" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/HBO_Zone_logo.png" ch-number="1415" group-title="TVPass HD",HBO Zone HD East HD
+https://tvpass.org/live/HBOZoneEast/hd
+
+#EXTINF:-1 tvg-id="independent-film-channel-us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/IFC_2018_logo.svg/330px-IFC_2018_logo.svg.png" ch-number="1416" group-title="TVPass HD",Independent Film Channel US HD
+https://tvpass.org/live/IFCEast/hd
+
+#EXTINF:-1 tvg-id="lifetime-movies-east" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/LMN_logo_2019.svg/330px-LMN_logo_2019.svg.png" ch-number="1417" group-title="TVPass HD",Lifetime Movies East HD
+https://tvpass.org/live/LifetimeMoviesEast/hd
+
+#EXTINF:-1 tvg-id="moremax-eastern" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/MoreMax_Logo.svg/330px-MoreMax_Logo.svg.png" ch-number="1418" group-title="TVPass HD",MoreMax Eastern HD
+https://tvpass.org/live/MoreMaxEast/hd
+
+#EXTINF:-1 tvg-id="moviemax-max-6-east" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/MovieMax_Logo.svg/330px-MovieMax_Logo.svg.png" ch-number="1419" group-title="TVPass HD",MovieMax (Max 6) East HD
+https://tvpass.org/live/MovieMaxEast/hd
+
+#EXTINF:-1 tvg-id="reelzchannel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Reelz.svg/330px-Reelz.svg.png" ch-number="1420" group-title="TVPass HD",ReelzChannel HD
+https://tvpass.org/live/Reelz/hd
+
+#EXTINF:-1 tvg-id="paramount-with-showtime-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/330px-Showtime.svg.png" ch-number="1421" group-title="TVPass HD",Showtime Eastern Feed HD
+https://tvpass.org/live/ShowtimeEast/hd
+
+#EXTINF:-1 tvg-id="showtime-2-eastern" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Showtime_2.svg/330px-Showtime_2.svg.png" ch-number="1422" group-title="TVPass HD",Showtime 2 Eastern HD
+https://tvpass.org/live/Showtime2East/hd
+
+#EXTINF:-1 tvg-id="starz-eastern" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Starz_2008.png/960px-Starz_2008.png" ch-number="1423" group-title="TVPass HD",Starz Eastern HD
+https://tvpass.org/live/StarzEast/hd
+
+#EXTINF:-1 tvg-id="sundancetv-usa-east" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/20/Sundance_TV_Logo.png" ch-number="1424" group-title="TVPass HD",SundanceTV USA East HD
+https://tvpass.org/live/SundanceTVEast/hd
+
+#EXTINF:-1 tvg-id="tmc-us-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/The_Movie_Channel.svg/330px-The_Movie_Channel.svg.png" ch-number="1425" group-title="TVPass HD",TMC (US) Eastern Feed HD
+https://tvpass.org/live/TheMovieChannelEast/hd
+
+#EXTINF:-1 tvg-id="turner-classic-movies-usa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/TCM_2021.svg/330px-TCM_2021.svg.png" ch-number="1426" group-title="TVPass HD",Turner Classic Movies USA HD
+https://tvpass.org/live/TCMEast/hd
+
+#EXTINF:-1 tvg-id="american-heroes-channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/American_Heroes_Channel_logo.svg/330px-American_Heroes_Channel_logo.svg.png" ch-number="1427" group-title="TVPass HD",American Heroes Channel HD
+https://tvpass.org/live/AmericanHeroesChannel/hd
+
+#EXTINF:-1 tvg-id="animal-planet-us-east" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/330px-2018_Animal_Planet_logo.svg.png" ch-number="1428" group-title="TVPass HD",Animal Planet US East HD
+https://tvpass.org/live/AnimalPlanetEast/hd
+
+#EXTINF:-1 tvg-id="crime-investigation-network-usa-hd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/71/Crime_and_Investigation_logo.png" ch-number="1429" group-title="TVPass HD",Crime & Investigation Network USA HD HD
+https://tvpass.org/live/CrimePlusInvestigation/hd
+
+#EXTINF:-1 tvg-id="destination-america" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Destination_America_logo.svg/285px-Destination_America_logo.svg.png" ch-number="1430" group-title="TVPass HD",Destination America HD
+https://tvpass.org/live/DestinationAmerica/hd
+
+#EXTINF:-1 tvg-id="discovery-channel-us-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/330px-2019_Discovery_logo.svg.png" ch-number="1431" group-title="TVPass HD",Discovery Channel (US) Eastern Feed HD
+https://tvpass.org/live/DiscoveryChannelEast/hd
+
+#EXTINF:-1 tvg-id="discovery-life-channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Discovery_Life_logo_2016.svg/240px-Discovery_Life_logo_2016.svg.png" ch-number="1432" group-title="TVPass HD",Discovery Life Channel HD
+https://tvpass.org/live/DiscoveryLife/hd
+
+#EXTINF:-1 tvg-id="history-channel-us-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/250px-History_%282021%29.svg.png" ch-number="1433" group-title="TVPass HD",History Channel US Eastern Feed HD
+https://tvpass.org/live/HistoryEast/hd
+
+#EXTINF:-1 tvg-id="investigation-discovery-usa-eastern" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/320px-InvestigationDiscoveryLogo2020.svg.png" ch-number="1434" group-title="TVPass HD",Investigation Discovery USA Eastern HD
+https://tvpass.org/live/InvestigationDiscoveryEast/hd
+
+#EXTINF:-1 tvg-id="national-geographic-us-eastern" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/330px-Natgeologo.svg.png" ch-number="1435" group-title="TVPass HD",National Geographic US Eastern HD
+https://tvpass.org/live/NationalGeographicEast/hd
+
+#EXTINF:-1 tvg-id="national-geographic-wild" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/320px-National_Geographic_Wild_logo.svg.png" ch-number="1436" group-title="TVPass HD",National Geographic Wild HD
+https://tvpass.org/live/NationalGeographicWildEast/hd
+
+#EXTINF:-1 tvg-id="science" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bc/Science_Channel_2016.png" ch-number="1437" group-title="TVPass HD",Science HD
+https://tvpass.org/live/Science/hd
+
+#EXTINF:-1 tvg-id="travel-us-east" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2018_Travel_Channel_logo.svg/320px-2018_Travel_Channel_logo.svg.png" ch-number="1438" group-title="TVPass HD",Travel US East HD
+https://tvpass.org/live/TravelChannelEast/hd
+
+#EXTINF:-1 tvg-id="vice" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Vice_TV_logo.svg/330px-Vice_TV_logo.svg.png" ch-number="1439" group-title="TVPass HD",VICE HD
+https://tvpass.org/live/VICETV/hd
+
+#EXTINF:-1 tvg-id="bbc-news-north-america-hd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/BBC_America_logo_2021.svg/250px-BBC_America_logo_2021.svg.png" ch-number="1440" group-title="TVPass HD",BBC News North America HD HD
+https://tvpass.org/live/BBCWorldNewsNorthAmerica/hd
+
+#EXTINF:-1 tvg-id="bloomberg-tv-usa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bloomberg_logo.svg/320px-Bloomberg_logo.svg.png" ch-number="1441" group-title="TVPass HD",Bloomberg TV USA HD
+https://tvpass.org/live/BloombergTV/hd
+
+#EXTINF:-1 tvg-id="cspan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/C-SPAN_Logo_%282019%29.svg/330px-C-SPAN_Logo_%282019%29.svg.png" ch-number="1442" group-title="TVPass HD",C-SPAN HD
+https://tvpass.org/live/CSPAN/hd
+
+#EXTINF:-1 tvg-id="cspan-2" tvg-logo="https://dishpromotions.com/wp-content/uploads/CSPN2-logo.png" ch-number="1443" group-title="TVPass HD",C-SPAN 2 HD
+https://tvpass.org/live/CSPAN2/hd
+
+#EXTINF:-1 tvg-id="cnbc-usa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/CNBC_2023.svg/330px-CNBC_2023.svg.png" ch-number="1444" group-title="TVPass HD",CNBC USA HD
+https://tvpass.org/live/CNBC/hd
+
+#EXTINF:-1 tvg-id="cnn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/CNN_Logo_%282014%29.svg/330px-CNN_Logo_%282014%29.svg.png" ch-number="1445" group-title="TVPass HD",CNN US HD
+https://tvpass.org/live/CNN/hd
+
+#EXTINF:-1 tvg-id="fox-business" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Fox_Business_Logo.svg/320px-Fox_Business_Logo.svg.png" ch-number="1446" group-title="TVPass HD",Fox Business HD
+https://tvpass.org/live/FoxBusiness/hd
+
+#EXTINF:-1 tvg-id="fox-news" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/250px-Fox_News_Channel_logo.svg.png" ch-number="1447" group-title="TVPass HD",Fox News HD
+https://tvpass.org/live/FoxNewsChannel/hd
+
+#EXTINF:-1 tvg-id="hln" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/HLNLogo2023.svg/330px-HLNLogo2023.svg.png" ch-number="1448" group-title="TVPass HD",HLN HD
+https://tvpass.org/live/HLN/hd
+
+#EXTINF:-1 tvg-id="msnbc-usa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/MSNBC_2023.svg/330px-MSNBC_2023.svg.png" ch-number="1449" group-title="TVPass HD",MSNBC USA HD
+https://tvpass.org/live/MSNBC/hd
+
+#EXTINF:-1 tvg-id="newsmax-tv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/330px-Newsmax_logo.svg.png" ch-number="1450" group-title="TVPass HD",NewsMax TV HD
+https://tvpass.org/live/NewsmaxTV/hd
+
+#EXTINF:-1 tvg-id="the-weather-channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/The_Weather_Channel_logo_2005-present.svg/250px-The_Weather_Channel_logo_2005-present.svg.png" ch-number="1451" group-title="TVPass HD",The Weather Channel HD
+https://tvpass.org/live/TheWeatherChannel/hd
+
+#EXTINF:-1 tvg-id="boomerang" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/316px-Boomerang_2014_logo.svg.png" ch-number="1452" group-title="TVPass HD",Boomerang HD
+https://tvpass.org/live/Boomerang/hd
+
+#EXTINF:-1 tvg-id="cartoon-network-usa-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/330px-Cartoon_Network_2010_logo.svg.png" ch-number="1453" group-title="TVPass HD",Cartoon Network USA Eastern Feed HD
+https://tvpass.org/live/CartoonNetworkEast/hd
+
+#EXTINF:-1 tvg-id="discovery-family-channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Discovery_Family_Logo_%282014%29.svg/320px-Discovery_Family_Logo_%282014%29.svg.png" ch-number="1454" group-title="TVPass HD",Discovery Family Channel HD
+https://tvpass.org/live/DiscoveryFamily/hd
+
+#EXTINF:-1 tvg-id="disney-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2024_Disney_Channel_text_logo.svg/330px-2024_Disney_Channel_text_logo.svg.png" ch-number="1455" group-title="TVPass HD",Disney Eastern Feed HD
+https://tvpass.org/live/DisneyChannelEast/hd
+
+#EXTINF:-1 tvg-id="disney-junior-usa-east" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2024_Disney_Jr._Logo.svg/330px-2024_Disney_Jr._Logo.svg.png" ch-number="1456" group-title="TVPass HD",Disney Junior USA East HD
+https://tvpass.org/live/DisneyJuniorEast/hd
+
+#EXTINF:-1 tvg-id="disney-xd-usa-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2015_Disney_XD_logo.svg/330px-2015_Disney_XD_logo.svg.png" ch-number="1457" group-title="TVPass HD",Disney XD USA Eastern Feed HD
+https://tvpass.org/live/DisneyXDEast/hd
+
+#EXTINF:-1 tvg-id="metv-toons-wjlp2-new-jersey" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/MeTV_Toons.png/330px-MeTV_Toons.png" ch-number="1458" group-title="TVPass HD",MeTV Toons (WJLP2) New Jersey HD
+https://tvpass.org/live/metv-toons/hd
+
+#EXTINF:-1 tvg-id="nick-jr-east" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_%28outline%29.svg/330px-Nick_Jr._logo_2023_%28outline%29.svg.png" ch-number="1459" group-title="TVPass HD",Nick Jr. East HD
+https://tvpass.org/live/NickJrEast/hd
+
+#EXTINF:-1 tvg-id="nickelodeon-usa-east-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/330px-Nickelodeon_2023_logo_%28outline%29.svg.png" ch-number="1460" group-title="TVPass HD",Nickelodeon USA East Feed HD
+https://tvpass.org/live/NickelodeonEast/hd
+
+#EXTINF:-1 tvg-id="nicktoons-east" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Nicktoons_Logo_2023.svg/330px-Nicktoons_Logo_2023.svg.png" ch-number="1461" group-title="TVPass HD",Nicktoons East HD
+https://tvpass.org/live/NicktoonsEast/hd
+
+#EXTINF:-1 tvg-id="teennick-eastern" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/TeenNick_logo_2023_%28outline%29.svg/1024px-TeenNick_logo_2023_%28outline%29.svg.png" ch-number="1462" group-title="TVPass HD",TeenNick Eastern HD
+https://tvpass.org/live/TeenNickEast/hd
+
+#EXTINF:-1 tvg-id="universal-kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Universal_Kids_2019_Logo.svg/330px-Universal_Kids_2019_Logo.svg.png" ch-number="1463" group-title="TVPass HD",Universal Kids HD
+https://tvpass.org/live/UniversalKidsEast/hd
+
+#EXTINF:-1 tvg-id="food-network-usa-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Food_Network_logo.svg/250px-Food_Network_logo.svg.png" ch-number="1464" group-title="TVPass HD",Food Network USA Eastern Feed HD
+https://tvpass.org/live/FoodNetworkEast/hd
+
+#EXTINF:-1 tvg-id="fyi-usa-eastern" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/FYI%2C_logo.svg/330px-FYI%2C_logo.svg.png" ch-number="1465" group-title="TVPass HD",FYI USA Eastern HD
+https://tvpass.org/live/FYIEast/hd
+
+#EXTINF:-1 tvg-id="hgtv-usa-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/HGTV_2010.svg/330px-HGTV_2010.svg.png" ch-number="1466" group-title="TVPass HD",HGTV USA Eastern Feed HD
+https://tvpass.org/live/HGTVEast/hd
+
+#EXTINF:-1 tvg-id="motor-trend-hd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Motor_Trend.svg/330px-Motor_Trend.svg.png" ch-number="1467" group-title="TVPass HD",Motor Trend HD HD
+https://tvpass.org/live/Motortrend/hd
+
+#EXTINF:-1 tvg-id="oprah-winfrey-network-usa-eastern" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/OWN_2011_logo.svg/330px-OWN_2011_logo.svg.png" ch-number="1468" group-title="TVPass HD",Oprah Winfrey Network USA Eastern HD
+https://tvpass.org/live/OWNEast/hd
+
+#EXTINF:-1 tvg-id="outdoor-channel-us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Outdoor_Channel_logo_2017.svg/330px-Outdoor_Channel_logo_2017.svg.png" ch-number="1469" group-title="TVPass HD",Outdoor Channel US HD
+https://tvpass.org/live/OutdoorChannel/hd
+
+#EXTINF:-1 tvg-id="the-cooking-channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Cooking_Channel.svg/330px-Cooking_Channel.svg.png" ch-number="1470" group-title="TVPass HD",The Cooking Channel HD
+https://tvpass.org/live/CookingChannel/hd
+
+#EXTINF:-1 tvg-id="tlc-usa-eastern" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/320px-TLC_Logo.svg.png" ch-number="1471" group-title="TVPass HD",TLC USA Eastern HD
+https://tvpass.org/live/TLCEast/hd
+
+#EXTINF:-1 tvg-id="fuse-tv-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Fuse_Black_Logo_2017.png/330px-Fuse_Black_Logo_2017.png" ch-number="1472" group-title="TVPass HD",FUSE TV Eastern feed HD
+https://tvpass.org/live/FuseEast/hd
+
+#EXTINF:-1 tvg-id="mtv-2-east" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/21/MTV2_logo_2013.svg/250px-MTV2_logo_2013.svg.png" ch-number="1473" group-title="TVPass HD",MTV 2 East HD
+https://tvpass.org/live/mtv-2-east/hd
+
+#EXTINF:-1 tvg-id="mtv-usa-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/330px-MTV_2021_%28brand_version%29.svg.png" ch-number="1474" group-title="TVPass HD",MTV USA Eastern Feed HD
+https://tvpass.org/live/MTVEast/hd
+
+#EXTINF:-1 tvg-id="vh1-eastern-feed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/VH1_logo.svg/330px-VH1_logo.svg.png" ch-number="1475" group-title="TVPass HD",VH1 Eastern Feed HD
+https://tvpass.org/live/VH1East/hd
+
+
+
+#######№###############################
 #EXTINF:-1 tvg-id="RYANTV-Channel" tvg-name="RYANTV Premium" tvg-logo="https://i.imghippo.com/files/XhMl5963ElQ.webp" group-title="RYANTV CHANNELS",PPV FUNDURA VS THURMAN
 https://racsi.short.gy/thurman.m3u8
 
